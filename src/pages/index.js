@@ -131,7 +131,7 @@ const IndexPage = () => {
     <div className="m-6">
       <div className="mx-auto max-w-3xl leading-snug text-gray-900">
         <h1 className="font-bold text-2xl">DAVE LOW</h1>
-        <p className="font-light">
+        <div className="font-light text-sm">
           <a
             href={showEmail && "mailto:hello@davelowqx.com"}
             className={`cursor-pointer && ${!showEmail && "bg-gray-100"}`}
@@ -147,7 +147,7 @@ const IndexPage = () => {
               </a>
             </span>
           ))}
-        </p>
+        </div>
         <br />
         <h2 className="font-bold text-lg">EDUCATION</h2>
         <hr className="mb-2" />

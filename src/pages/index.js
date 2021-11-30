@@ -142,7 +142,7 @@ const IndexPage = () => {
           {links.map(({ title, href }, i) => (
             <span key={i}>
               &nbsp;&nbsp;|&nbsp;&nbsp;
-              <a href={href} target="_blank">
+              <a href={href} target="_blank" rel="noreferrer">
                 {title}
               </a>
             </span>
@@ -154,7 +154,7 @@ const IndexPage = () => {
         <div className="flex">
           <h3 className="font-bold">{education.school}</h3>
           <div className="flex-grow" />
-          <div className="font-light">{education.duration}</div>
+          <div className="font-light hidden sm:block">{education.duration}</div>
         </div>
         <div className="italic">{education.degree}</div>
         <div>
@@ -185,6 +185,7 @@ const IndexPage = () => {
                   <a
                     href={`https://${project.url}`}
                     target="_blank"
+                    rel="noreferrer"
                     className="font-light ml-1 underline"
                   >
                     {project.url}
@@ -193,7 +194,9 @@ const IndexPage = () => {
                     [{project.badge}]
                   </div>
                   <div className="flex-grow" />
-                  <div className="font-light">{project.duration}</div>
+                  <div className="font-light hidden sm:block">
+                    {project.duration}
+                  </div>
                 </div>
                 <p>{project.summary}</p>
                 <p className="font-light">{project.description}</p>

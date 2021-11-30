@@ -156,23 +156,27 @@ const IndexPage = () => {
         </div>
         <div className="italic">{education.degree}</div>
         <div>
-          {education.details.map((detail) => (
-            <Detail title={detail.title} description={detail.description} />
+          {education.details.map((detail, i) => (
+            <Detail
+              key={i}
+              title={detail.title}
+              description={detail.description}
+            />
           ))}
         </div>
         <br />
         <h2 className="font-bold text-lg">SKILLS</h2>
         <hr className="mb-2" />
-        {skills.map((skill) => (
-          <Detail title={skill.title} description={skill.description} />
+        {skills.map((skill, i) => (
+          <Detail key={i} title={skill.title} description={skill.description} />
         ))}
 
         <br />
         <h2 className="font-bold text-lg">PROJECTS</h2>
         <hr className="mb-2" />
         <ul>
-          {projects.map((project) => (
-            <div className="mb-2" key={project.url}>
+          {projects.map((project, i) => (
+            <div key={i} className="mb-2" key={project.url}>
               <span>
                 <div className="flex">
                   <a className="font-semibold" href={`https://${project.url}`}>

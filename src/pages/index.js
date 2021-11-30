@@ -59,7 +59,7 @@ const projects = [
     title: "fuzzyfilms",
     url: "fuzzyfilms.co",
     summary: "Gatsby.js, styled-components, Formik",
-    description: "Static landing page site.",
+    description: "Static portfolio site.",
     badge: "production",
     badgeColor: "green",
     duration: "Jun 2021 - Jul 2021",
@@ -119,7 +119,7 @@ const links = [
 
 const Detail = ({ title, description }) => (
   <div>
-    <span className="font-semibold">{" • " + title}: </span>
+    <span className="font-semibold">{` • ${title}: `}</span>
     {description}
   </div>
 );
@@ -129,20 +129,22 @@ const IndexPage = () => {
   const [showEmail, setShowEmail] = React.useState(false);
   return (
     <div className="m-6">
-      <div className="mx-auto max-w-3xl leading-snug">
+      <div className="mx-auto max-w-3xl leading-snug text-gray-900">
         <h1 className="font-bold text-2xl">DAVE LOW</h1>
         <p className="font-light">
           <a
             href={showEmail && "mailto:hello@davelowqx.com"}
-            className={!showEmail && `bg-gray-100`}
+            className={`cursor-pointer && ${!showEmail && "bg-gray-100"}`}
             onClick={() => !showEmail && setShowEmail(true)}
           >
             {showEmail ? "hello@davelowqx.com" : "email"}
           </a>
           {links.map(({ title, href }, i) => (
             <span key={i}>
-              {" | "}
-              <a href={href}>{title}</a>
+              &nbsp;&nbsp;|&nbsp;&nbsp;
+              <a href={href} target="_blank">
+                {title}
+              </a>
             </span>
           ))}
         </p>
@@ -176,19 +178,21 @@ const IndexPage = () => {
         <hr className="mb-2" />
         <ul>
           {projects.map((project, i) => (
-            <div key={i} className="mb-2" key={project.url}>
+            <div key={i} className="mb-2">
               <span>
                 <div className="flex">
-                  <a className="font-semibold" href={`https://${project.url}`}>
-                    {project.title}
-                    <span className="font-light ml-1 underline">
-                      {project.url}
-                    </span>
+                  <div className="font-semibold">{project.title}</div>
+                  <a
+                    href={`https://${project.url}`}
+                    target="_blank"
+                    className="font-light ml-1 underline"
+                  >
+                    {project.url}
                   </a>
                   <div
                     className={`bg-${project.badgeColor}-100 ml-1 font-light`}
                   >
-                    {project.badge}
+                    [{project.badge}]
                   </div>
                   <div className="flex-grow" />
                   <div className="font-light">{project.duration}</div>

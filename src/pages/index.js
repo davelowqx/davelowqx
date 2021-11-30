@@ -11,7 +11,7 @@ const projects = [
     description:
       "Decentralised application on the Ethereum network, where companies can issue tokenized shares for investors.",
     badge: "unmaintained",
-    badgeColor: "red",
+    badgeStyle: "bg-red-100",
     duration: "Jun 2021 - Aug 2021",
   },
   {
@@ -21,7 +21,7 @@ const projects = [
     description:
       "Application for traders to post and follow trade ideas, with their performance tracked.",
     badge: "development",
-    badgeColor: "gray",
+    badgeStyle: "bg-gray-100",
     duration: "Aug 2021 - Present",
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     description:
       "Dashboard for traders to monitor financial markets, inspired by the Bloomberg Terminal.",
     badge: "production",
-    badgeColor: "green",
+    badgeStyle: "bg-green-100",
     duration: "Jun 2021 - Present",
   },
   {
@@ -42,7 +42,7 @@ const projects = [
     description:
       "Web application to map the location of speed cameras and signs in Singapore.",
     badge: "production",
-    badgeColor: "green",
+    badgeStyle: "bg-green-100",
     duration: "Oct 2021 - Present",
   },
   {
@@ -52,7 +52,7 @@ const projects = [
     description:
       "Frontend to search carousell.com with additional functionality and metrics.",
     badge: "production",
-    badgeColor: "green",
+    badgeStyle: "bg-green-100",
     duration: "Oct 2021 - Oct 2021",
   },
   {
@@ -61,7 +61,7 @@ const projects = [
     summary: "Gatsby.js, styled-components, Formik",
     description: "Static portfolio site.",
     badge: "production",
-    badgeColor: "green",
+    badgeStyle: "bg-green-100",
     duration: "Jun 2021 - Jul 2021",
   },
 ];
@@ -189,9 +189,7 @@ const IndexPage = () => {
                   >
                     {project.url}
                   </a>
-                  <div
-                    className={`bg-${project.badgeColor}-100 ml-1 font-light`}
-                  >
+                  <div className={`${project.badgeStyle} ml-1 font-light`}>
                     [{project.badge}]
                   </div>
                   <div className="flex-grow" />

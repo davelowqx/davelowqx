@@ -9,7 +9,7 @@ const projects = [
     summary:
       "Next.js, semantic UI, Firebase Firestore/Storage, web3.js/MetaMask, Solidity, Ganache CLI, mocha",
     description:
-      "Decentralised application on the Ethereum network, where companies can issue tokenized shares for investors.",
+      "Decentralised application on the Ethereum network, where companies can issue tokenized shares to investors.",
     badge: "unmaintained",
     badgeStyle: "bg-red-100",
     duration: "Jun 2021 - Aug 2021",
@@ -50,7 +50,7 @@ const projects = [
     url: "carousearch.vercel.app",
     summary: "Next.js, tailwind-css",
     description:
-      "Frontend to search carousell.com with additional functionality and metrics.",
+      "Client for searching carousell.com with additional functionality and metrics.",
     badge: "production",
     badgeStyle: "bg-green-100",
     duration: "Oct 2021 - Oct 2021",

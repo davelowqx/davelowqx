@@ -4,24 +4,13 @@ import "../styles/global.css";
 // data
 const projects = [
   {
-    title: "finatic",
-    url: "finatic.vercel.app",
-    summary:
-      "Next.js, semantic UI, Firebase Firestore/Storage, web3.js/MetaMask, Solidity, Ganache CLI, mocha",
-    description:
-      "Decentralised application on the Ethereum network, where companies can issue tokenized shares to investors.",
-    badge: "unmaintained",
-    badgeStyle: "bg-red-100",
-    duration: "Jun 2021 - Aug 2021",
-  },
-  {
     title: "signaci",
     url: "signaci.com",
     summary: "Next.js, tailwindcss, PostgreSQL, Firebase Auth",
     description:
-      "Application for traders to post and follow trade ideas, with their performance tracked.",
-    badge: "development",
-    badgeStyle: "bg-gray-100",
+      "Application for traders/investors to post and follow trade ideas, with their performance tracked.",
+    badge: "production",
+    badgeStyle: "bg-green-100",
     duration: "Aug 2021 - Present",
   },
   {
@@ -36,14 +25,15 @@ const projects = [
     duration: "Jun 2021 - Present",
   },
   {
-    title: "DriveSafeSG",
-    url: "drivesafesg.vercel.app",
-    summary: "webpack, Google Maps Platform",
+    title: "finatic",
+    url: "finatic.vercel.app",
+    summary:
+      "Next.js, semantic UI, Firebase Firestore/Storage, web3.js/MetaMask, Solidity, Ganache CLI, mocha",
     description:
-      "Web application to map the location of speed cameras and signs in Singapore.",
-    badge: "production",
-    badgeStyle: "bg-green-100",
-    duration: "Oct 2021 - Present",
+      "Decentralised application on the Ethereum network, where companies can issue tokenized shares to investors.",
+    badge: "unmaintained",
+    badgeStyle: "bg-red-100",
+    duration: "Jun 2021 - Aug 2021",
   },
   {
     title: "carousearch",
@@ -70,7 +60,7 @@ const skills = [
   {
     title: "Languages",
     description:
-      "HTML, CSS, JavaScript, TypeScript, SQL, Java, Solidity, C, Python, Markdown",
+      "JavaScript, TypeScript, SQL, Java, C, Python, Rust, Solidity, HTML, CSS",
   },
   {
     title: "Stacks",
@@ -84,7 +74,7 @@ const skills = [
   },
   {
     title: "Services",
-    description: "AWS (RDS), GCP, Firebase, Vercel, Cloudfare, Heroku, Netlify",
+    description: "AWS, GCP, Firebase, Vercel, Cloudfare, Heroku, Netlify",
   },
 ];
 
@@ -104,7 +94,8 @@ const education = {
     },
     {
       title: "Activities",
-      description: "Basketball, Developers Club, Media Team, Fintech Society",
+      description:
+        "Developers Club, Fintech Society (Blockchain Dept), Media Team, Basketball",
     },
   ],
 };
@@ -142,7 +133,12 @@ const IndexPage = () => {
           {links.map(({ title, href }, i) => (
             <span key={i}>
               &nbsp;&nbsp;|&nbsp;&nbsp;
-              <a href={href} target="_blank" rel="noreferrer">
+              <a
+                href={href}
+                target="_blank"
+                rel="noreferrer"
+                className="hover:underline"
+              >
                 {title}
               </a>
             </span>

@@ -1,4 +1,5 @@
 import React from "react";
+import Helmet from "react-helmet";
 import "../styles/global.css";
 
 // data
@@ -115,93 +116,132 @@ const Detail = ({ title, description }) => (
   </div>
 );
 
+const APP_NAME = "Dave Low";
+const APP_DESCRIPTION = "Portfolio Site";
+const APP_URL = "https://davelowqx.com";
+
 // markup
 const IndexPage = () => {
   const [showEmail, setShowEmail] = React.useState(false);
   return (
-    <div className="m-6">
-      <div className="mx-auto max-w-3xl leading-snug text-gray-900">
-        <h1 className="font-bold text-2xl">DAVE LOW</h1>
-        <div className="font-light text-sm">
-          <a
-            href={showEmail && "mailto:hello@davelowqx.com"}
-            className={`cursor-pointer && ${!showEmail && "bg-gray-100"}`}
-            onClick={() => !showEmail && setShowEmail(true)}
-          >
-            {showEmail ? "hello@davelowqx.com" : "email"}
-          </a>
-          {links.map(({ title, href }, i) => (
-            <span key={i}>
-              &nbsp;&nbsp;|&nbsp;&nbsp;
-              <a
-                href={href}
-                target="_blank"
-                rel="noreferrer"
-                className="hover:underline"
-              >
-                {title}
-              </a>
-            </span>
-          ))}
-        </div>
-        <br />
-        <h2 className="font-bold text-lg">EDUCATION</h2>
-        <hr className="mb-2" />
-        <div className="flex">
-          <h3 className="font-bold">{education.school}</h3>
-          <div className="flex-grow" />
-          <div className="font-light hidden sm:block">{education.duration}</div>
-        </div>
-        <div className="italic">{education.degree}</div>
-        <div>
-          {education.details.map((detail, i) => (
+    <>
+      <Helmet>
+        <title>{APP_NAME}</title>
+        <meta
+          name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover"
+        />
+        <meta charSet="utf-8" />
+        <meta name="description" content={APP_DESCRIPTION} />
+        <meta name="application-name" content={APP_NAME} />
+        <meta name="theme-color" content="#FFFFFF" />
+
+        <link rel="canonical" href={APP_URL} />
+        <link rel="shortcut icon" href="/favicon.ico" />
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content={APP_NAME} />
+        <meta name="twitter:description" content={APP_DESCRIPTION} />
+        <meta name="twitter:url" content={APP_URL} />
+        <meta name="twitter:image" content={`${APP_URL}/logo.png`} />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={APP_NAME} />
+        <meta property="og:description" content={APP_DESCRIPTION} />
+        <meta property="og:site_name" content={APP_NAME} />
+        <meta property="og:url" content={APP_URL} />
+        <meta property="og:image" content={`${APP_URL}/logo.png`} />
+      </Helmet>
+      <div className="m-6">
+        <div className="mx-auto max-w-3xl leading-snug text-gray-900">
+          <h1 className="font-bold text-2xl">DAVE LOW</h1>
+          <div className="font-light text-sm">
+            <a
+              href={showEmail && "mailto:hello@davelowqx.com"}
+              className={`cursor-pointer && ${!showEmail && "bg-gray-100"}`}
+              onClick={() => !showEmail && setShowEmail(true)}
+            >
+              {showEmail ? "hello@davelowqx.com" : "email"}
+            </a>
+            {links.map(({ title, href }, i) => (
+              <span key={i}>
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a
+                  href={href}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:underline"
+                >
+                  {title}
+                </a>
+              </span>
+            ))}
+          </div>
+          <br />
+          <h2 className="font-bold text-lg">EDUCATION</h2>
+          <hr className="mb-2" />
+          <div className="flex">
+            <h3 className="font-bold">{education.school}</h3>
+            <div className="flex-grow" />
+            <div className="font-light hidden sm:block">
+              {education.duration}
+            </div>
+          </div>
+          <div className="italic">{education.degree}</div>
+          <div>
+            {education.details.map((detail, i) => (
+              <Detail
+                key={i}
+                title={detail.title}
+                description={detail.description}
+              />
+            ))}
+          </div>
+          <br />
+          <h2 className="font-bold text-lg">SKILLS</h2>
+          <hr className="mb-2" />
+          {skills.map((skill, i) => (
             <Detail
               key={i}
-              title={detail.title}
-              description={detail.description}
+              title={skill.title}
+              description={skill.description}
             />
           ))}
-        </div>
-        <br />
-        <h2 className="font-bold text-lg">SKILLS</h2>
-        <hr className="mb-2" />
-        {skills.map((skill, i) => (
-          <Detail key={i} title={skill.title} description={skill.description} />
-        ))}
 
-        <br />
-        <h2 className="font-bold text-lg">PROJECTS</h2>
-        <hr className="mb-2" />
-        <ul>
-          {projects.map((project, i) => (
-            <div key={i} className="mb-2">
-              <span>
-                <div className="flex">
-                  <div className="font-semibold">{project.title}</div>
-                  <a
-                    href={`https://${project.url}`}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="font-light ml-1 underline"
-                  >
-                    {project.url}
-                  </a>
-                  <div className={`${project.badgeStyle} ml-1 font-light`}>
-                    [{project.badge}]
+          <br />
+          <h2 className="font-bold text-lg">PROJECTS</h2>
+          <hr className="mb-2" />
+          <ul>
+            {projects.map((project, i) => (
+              <div key={i} className="mb-2">
+                <span>
+                  <div className="flex">
+                    <div className="font-semibold">{project.title}</div>
+                    <a
+                      href={`https://${project.url}`}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="font-light ml-1 underline"
+                    >
+                      {project.url}
+                    </a>
+                    <div className={`${project.badgeStyle} ml-1 font-light`}>
+                      [{project.badge}]
+                    </div>
+                    <div className="flex-grow" />
+                    <div className="font-light hidden sm:block">
+                      {project.duration}
+                    </div>
                   </div>
-                  <div className="flex-grow" />
-                  <div className="font-light hidden sm:block">
-                    {project.duration}
-                  </div>
-                </div>
-                <p>{project.summary}</p>
-                <p className="font-light">{project.description}</p>
-              </span>
-            </div>
-          ))}
-        </ul>
+                  <p>{project.summary}</p>
+                  <p className="font-light">{project.description}</p>
+                </span>
+              </div>
+            ))}
+          </ul>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -133,24 +133,22 @@ const IndexPage = () => {
         />
         <meta charSet="utf-8" />
         <meta name="description" content={APP_DESCRIPTION} />
-        <meta name="application-name" content={APP_NAME} />
         <meta name="theme-color" content="#FFFFFF" />
 
         <link rel="canonical" href={APP_URL} />
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={APP_NAME} />
         <meta name="twitter:description" content={APP_DESCRIPTION} />
         <meta name="twitter:url" content={APP_URL} />
-        <meta name="twitter:image" content={`${APP_URL}/logo.png`} />
+        <meta name="twitter:image" content={`${APP_URL}/og_logo.png`} />
 
         <meta property="og:type" content="website" />
         <meta property="og:title" content={APP_NAME} />
         <meta property="og:description" content={APP_DESCRIPTION} />
-        <meta property="og:site_name" content={APP_NAME} />
         <meta property="og:url" content={APP_URL} />
-        <meta property="og:image" content={`${APP_URL}/logo.png`} />
+        <meta property="og:image" content={`${APP_URL}/og_logo.png`} />
       </Helmet>
       <div className="m-6">
         <div className="mx-auto max-w-3xl leading-snug text-gray-900">

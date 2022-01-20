@@ -7,22 +7,19 @@ const projects = [
   {
     title: "signaci",
     url: "signaci.com",
-    summary: "Next.js, tailwindcss, PostgreSQL, Firebase Auth",
+    summary: "Next.js, tailwindcss, PostgreSQL, Firebase Auth, FTX API",
     description:
       "Application for traders/investors to post and follow trade ideas, with their performance tracked.",
-    badge: "production",
-    badgeStyle: "bg-green-100",
     duration: "Aug 2021 - Present",
   },
   {
     title: "bloomburger",
     url: "bloomburger.co",
     summary:
-      "Next.js, Bootstrap, Lightweight Charts, React Table, Yahoo Finance/FTX API",
+      "Next.js, Bootstrap, Lightweight Charts, React Table, Yahoo Finance API",
     description:
       "Dashboard for traders to monitor financial markets, inspired by the Bloomberg Terminal.",
-    badge: "production",
-    badgeStyle: "bg-green-100",
+    github: "https://github.com/davelowqx/bloomburger",
     duration: "Jun 2021 - Present",
   },
   {
@@ -31,9 +28,8 @@ const projects = [
     summary:
       "Next.js, semantic UI, Firebase Firestore/Storage, web3.js/MetaMask, Solidity, Ganache CLI, mocha",
     description:
-      "Decentralised application on the Ethereum network, where companies can issue tokenized shares to investors.",
-    badge: "unmaintained",
-    badgeStyle: "bg-red-100",
+      "Crowdfunding decentralised application on the Ethereum Testnet.",
+    github: "https://github.com/davelowqx/finatic",
     duration: "Jun 2021 - Aug 2021",
   },
   {
@@ -41,9 +37,8 @@ const projects = [
     url: "carousearch.vercel.app",
     summary: "Next.js, tailwind-css",
     description:
-      "Client for searching carousell.com with additional functionality and metrics.",
-    badge: "production",
-    badgeStyle: "bg-green-100",
+      "Alternative client for searching carousell.com with additional functionality and metrics.",
+    github: "https://github.com/davelowqx/carousearch",
     duration: "Oct 2021 - Oct 2021",
   },
   {
@@ -51,8 +46,7 @@ const projects = [
     url: "fuzzyfilms.co",
     summary: "Gatsby.js, styled-components, Formik",
     description: "Static portfolio site.",
-    badge: "production",
-    badgeStyle: "bg-green-100",
+    github: "https://github.com/davelowqx/fuzzyfilms",
     duration: "Jun 2021 - Jul 2021",
   },
 ];
@@ -66,7 +60,7 @@ const skills = [
   {
     title: "Stacks",
     description:
-      "Node.js, React.js, Express.js, Next.js, PostgreSQL, web3.js/MetaMask",
+      "Node.js, React.js, Next.js, PostgreSQL, Express.js, tailwindcss, web3.js/MetaMask",
   },
   {
     title: "Tools",
@@ -79,6 +73,16 @@ const skills = [
   },
 ];
 
+const experiences = [
+  {
+    title: "HatchDev",
+    summary: "Front End Developer",
+    description:
+      "Designed and built landing pages for realtor clients to increase sales and traffic.",
+    duration: "Feb 2020 - Aug 2020",
+  },
+];
+
 const education = {
   school: "National University of Singapore",
   duration: "Aug 2020 - May 2024",
@@ -87,7 +91,7 @@ const education = {
     {
       title: "Coursework",
       description:
-        "Data Structures & Algorithms, Software Engineering, Operating Systems, Database, Finance",
+        "Data Structures & Algorithms, Software Engineering, Operating Systems, Database, Networking, Finance",
     },
     {
       title: "Achievements",
@@ -153,14 +157,13 @@ const IndexPage = () => {
       <div className="m-6">
         <div className="mx-auto max-w-3xl leading-snug text-gray-900">
           <h1 className="font-bold text-2xl">DAVE LOW</h1>
-          <div className="font-light text-sm">
-            <a
-              href={showEmail && "mailto:hello@davelowqx.com"}
-              className={`cursor-pointer && ${!showEmail && "bg-gray-100"}`}
+          <div className="flex font-light text-sm">
+            <div
+              className={`${!showEmail && "cursor-pointer bg-gray-100"}`}
               onClick={() => !showEmail && setShowEmail(true)}
             >
-              {showEmail ? "hello@davelowqx.com" : "email"}
-            </a>
+              {showEmail ? "hello[at]davelowqx.com" : "email"}
+            </div>
             {links.map(({ title, href }, i) => (
               <span key={i}>
                 &nbsp;&nbsp;|&nbsp;&nbsp;
@@ -175,7 +178,9 @@ const IndexPage = () => {
               </span>
             ))}
           </div>
+
           <br />
+
           <h2 className="font-bold text-lg">EDUCATION</h2>
           <hr className="mb-2" />
           <div className="flex">
@@ -207,25 +212,32 @@ const IndexPage = () => {
           ))}
 
           <br />
-          <h2 className="font-bold text-lg">PROJECTS</h2>
+
+          <h2 className="font-bold text-lg">INDIVIDUAL PROJECTS</h2>
           <hr className="mb-2" />
           <ul>
             {projects.map((project, i) => (
               <div key={i} className="mb-2">
                 <span>
-                  <div className="flex">
+                  <div className="flex items-center">
                     <div className="font-semibold">{project.title}</div>
+                    &nbsp;
                     <a
                       href={`https://${project.url}`}
                       target="_blank"
                       rel="noreferrer"
-                      className="font-light ml-1 underline"
+                      className="font-light underline"
                     >
                       {project.url}
                     </a>
-                    <div className={`${project.badgeStyle} ml-1 font-light`}>
-                      [{project.badge}]
-                    </div>
+                    {project.github && (
+                      <>
+                        &nbsp;&nbsp;
+                        <a href={project.github}>
+                          <img src="/github.png" className="w-4" />
+                        </a>
+                      </>
+                    )}
                     <div className="flex-grow" />
                     <div className="font-light hidden sm:block">
                       {project.duration}
@@ -237,6 +249,31 @@ const IndexPage = () => {
               </div>
             ))}
           </ul>
+
+          <br />
+
+          <h2 className="font-bold text-lg">EXPERIENCE</h2>
+          <hr className="mb-2" />
+          <ul>
+            {experiences.map((experience, i) => (
+              <div key={i} className="mb-2">
+                <span>
+                  <div className="flex items-center">
+                    <div className="font-semibold">{experience.title}</div>
+                    &nbsp;-&nbsp;
+                    <div className="font-light">{experience.summary}</div>
+                    <div className="flex-grow" />
+                    <div className="font-light hidden sm:block">
+                      {experience.duration}
+                    </div>
+                  </div>
+                  <p>{experience.description}</p>
+                </span>
+              </div>
+            ))}
+          </ul>
+
+          <br />
         </div>
       </div>
     </>

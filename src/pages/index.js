@@ -1,5 +1,4 @@
 import React from "react";
-import Helmet from "react-helmet";
 import "../styles/global.css";
 
 // data
@@ -120,40 +119,12 @@ const Detail = ({ title, description }) => (
   </div>
 );
 
-const APP_NAME = "Dave Low";
-const APP_DESCRIPTION = "Portfolio Site";
-const APP_URL = "https://davelowqx.com";
-
 // markup
 const IndexPage = () => {
   const [showEmail, setShowEmail] = React.useState(false);
   return (
     <>
-      <Helmet>
-        <title>{APP_NAME}</title>
-        <meta
-          name="viewport"
-          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover"
-        />
-        <meta charSet="utf-8" />
-        <meta name="description" content={APP_DESCRIPTION} />
-        <meta name="theme-color" content="#FFFFFF" />
-
-        <link rel="canonical" href={APP_URL} />
-        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content={APP_NAME} />
-        <meta name="twitter:description" content={APP_DESCRIPTION} />
-        <meta name="twitter:url" content={APP_URL} />
-        <meta name="twitter:image" content={`${APP_URL}/og_logo.png`} />
-
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content={APP_NAME} />
-        <meta property="og:description" content={APP_DESCRIPTION} />
-        <meta property="og:url" content={APP_URL} />
-        <meta property="og:image" content={`${APP_URL}/og_logo.png`} />
-      </Helmet>
+      <Seo />
       <div className="m-6">
         <div className="mx-auto max-w-3xl leading-snug text-gray-900">
           <h1 className="font-bold text-2xl">DAVE LOW</h1>

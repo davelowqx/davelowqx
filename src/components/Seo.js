@@ -27,13 +27,13 @@ const Seo = ({
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:url" content={SITE_URL + path} />
-      <meta name="twitter:image" content="/og_logo.png" />
+      <meta name="twitter:image" content={`${SITE_URL}/og_logo.png`} />
 
       <meta property="og:type" content="website" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:url" content={SITE_URL + path} />
-      <meta property="og:image" content="og_logo.png" />
+      <meta property="og:image" content={`${SITE_URL}/og_logo.png`} />
     </Helmet>
   );
 };

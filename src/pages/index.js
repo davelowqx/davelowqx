@@ -9,7 +9,7 @@ const projects = [
     url: "signaci.com",
     summary: "Next.js, tailwindcss, PostgreSQL, Firebase Auth, FTX API",
     description:
-      "Application for traders/investors to post and follow trade ideas, with their performance tracked.",
+      "Application for traders and investors to share ideas, with their performance tracked.",
     duration: "Aug 2021 - Present",
   },
   {
@@ -76,9 +76,9 @@ const skills = [
 const experiences = [
   {
     title: "HatchDev",
-    summary: "Front End Developer",
+    summary: "Creative Lead",
     description:
-      "Designed and built landing pages for realtor clients to increase sales and traffic.",
+      "Responsible for creative media and websites to increase lead generation",
     duration: "Feb 2020 - Aug 2020",
   },
 ];

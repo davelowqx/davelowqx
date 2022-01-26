@@ -74,6 +74,13 @@ const skills = [
 
 const experiences = [
   {
+    title: "Raffles Hall Developers",
+    summary: "Student Backend Engineer",
+    description:
+      "Worked on maintaining and optimizing the MongoDB database for the Hall's applications.",
+    duration: "Aug 2021 - Present",
+  },
+  {
     title: "National University of Singapore",
     summary: "Teaching Assistant",
     description:
@@ -106,7 +113,7 @@ const education = {
     {
       title: "Activities",
       description:
-        "Developers Club, Fintech Society (Blockchain Dept), Media Team, Basketball",
+        "Developers Club, Fintech Society (Blockchain), Media Team, Basketball",
     },
   ],
 };

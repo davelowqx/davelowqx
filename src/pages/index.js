@@ -7,18 +7,17 @@ const projects = [
   {
     title: "signaci",
     url: "signaci.com",
-    summary: "Next.js, tailwindcss, PostgreSQL, Firebase Auth, FTX API",
+    summary: "Next.js, tailwindcss, PostgreSQL, Firebase Auth",
     description:
-      "Application for traders and investors to share ideas, with their performance tracked.",
+      "Full Stack PWA for traders and investors to share ideas, with their performance tracked. Individual effort.",
     duration: "Aug 2021 - Present",
   },
   {
     title: "bloomburger",
     url: "bloomburger.co",
-    summary:
-      "Next.js, Bootstrap, Lightweight Charts, React Table, Yahoo Finance API",
+    summary: "Next.js, Bootstrap, Lightweight Charts, React Table",
     description:
-      "Dashboard for traders to monitor financial markets, inspired by the Bloomberg Terminal.",
+      "Dashboard to monitor financial markets with an edge, inspired by the Bloomberg Terminal. Individual effort",
     github: "https://github.com/davelowqx/bloomburger",
     duration: "Jun 2021 - Present",
   },
@@ -26,9 +25,9 @@ const projects = [
     title: "finatic",
     url: "finatic.vercel.app",
     summary:
-      "Next.js, semantic UI, Firebase Firestore/Storage, web3.js/MetaMask, Solidity, Ganache CLI, mocha",
+      "Next.js, Semantic UI, Firebase Firestore/Storage, web3.js/MetaMask, Solidity",
     description:
-      "Crowdfunding decentralised application on the Ethereum Testnet.",
+      "Decentralised Application for Crowdfunding on the Ethereum Testnet. Individual effort.",
     github: "https://github.com/davelowqx/finatic",
     duration: "Jun 2021 - Aug 2021",
   },
@@ -37,7 +36,7 @@ const projects = [
     url: "carousearch.vercel.app",
     summary: "Next.js, tailwind-css",
     description:
-      "Alternative client for searching carousell.com with additional functionality and metrics.",
+      "Alternative client for searching carousell.com with additional functionality and metrics. Individual effort",
     github: "https://github.com/davelowqx/carousearch",
     duration: "Oct 2021 - Oct 2021",
   },
@@ -45,7 +44,7 @@ const projects = [
     title: "fuzzyfilms",
     url: "fuzzyfilms.co",
     summary: "Gatsby.js, styled-components, Formik",
-    description: "Static portfolio site.",
+    description: "Static single page portfolio site. Individual effort.",
     github: "https://github.com/davelowqx/fuzzyfilms",
     duration: "Jun 2021 - Jul 2021",
   },
@@ -55,7 +54,7 @@ const skills = [
   {
     title: "Languages",
     description:
-      "JavaScript, TypeScript, SQL, Java, C, Python, Rust, Solidity, HTML, CSS",
+      "JavaScript, TypeScript, SQL, Java, C, Python, Solidity, HTML, CSS",
   },
   {
     title: "Stacks",
@@ -75,10 +74,17 @@ const skills = [
 
 const experiences = [
   {
-    title: "HatchDev",
-    summary: "Creative Lead",
+    title: "National University of Singapore",
+    summary: "Teaching Assistant",
     description:
-      "Responsible for creative media and websites to increase lead generation",
+      "Conducted weekly tutorial sessions for Programming Methodology (CS1101S)",
+    duration: "Aug 2021 - Dec 2021",
+  },
+  {
+    title: "HatchDev",
+    summary: "Co-founder, Creative Lead",
+    description: "Co-founded Digital Marketing Agency for Real Estate Agents.",
+    additional: `Responsible for creative media and websites to increase lead generation.`,
     duration: "Feb 2020 - Aug 2020",
   },
 ];
@@ -86,12 +92,12 @@ const experiences = [
 const education = {
   school: "National University of Singapore",
   duration: "Aug 2020 - May 2024",
-  degree: "Computer Science (Hons.), Minor in Management, CAP 4.2",
+  degree: "Computer Science (Hons.), Minor in Management",
   details: [
     {
       title: "Coursework",
       description:
-        "Data Structures & Algorithms, Software Engineering, Operating Systems, Database, Networking, Finance",
+        "Data Structures & Algorithms, Software Engineering, Operating Systems, Database, Networking, Security, Finance",
     },
     {
       title: "Achievements",
@@ -129,7 +135,7 @@ const IndexPage = () => {
       <div className="m-6">
         <div className="mx-auto max-w-3xl leading-snug text-gray-900">
           <h1 className="font-bold text-2xl">DAVE LOW</h1>
-          <div className="flex font-light text-sm">
+          <div className="flex font-light">
             <div
               className={`${!showEmail && "cursor-pointer bg-gray-100"}`}
               onClick={() => !showEmail && setShowEmail(true)}
@@ -138,7 +144,7 @@ const IndexPage = () => {
             </div>
             {links.map(({ title, href }, i) => (
               <span key={i}>
-                &nbsp;&nbsp;|&nbsp;&nbsp;
+                &nbsp;&nbsp;•&nbsp;&nbsp;
                 <a
                   href={href}
                   target="_blank"
@@ -154,11 +160,11 @@ const IndexPage = () => {
           <br />
 
           <h2 className="font-bold text-lg">EDUCATION</h2>
-          <hr className="mb-2" />
+          <hr className="mb-2.5" />
           <div className="flex">
             <h3 className="font-bold">{education.school}</h3>
             <div className="flex-grow" />
-            <div className="font-light hidden sm:block">
+            <div className="font-light hidden xs:block">
               {education.duration}
             </div>
           </div>
@@ -174,7 +180,7 @@ const IndexPage = () => {
           </div>
           <br />
           <h2 className="font-bold text-lg">SKILLS</h2>
-          <hr className="mb-2" />
+          <hr className="mb-2.5" />
           {skills.map((skill, i) => (
             <Detail
               key={i}
@@ -185,39 +191,37 @@ const IndexPage = () => {
 
           <br />
 
-          <h2 className="font-bold text-lg">INDIVIDUAL PROJECTS</h2>
-          <hr className="mb-2" />
+          <h2 className="font-bold text-lg">PROJECTS</h2>
+          <hr className="mb-2.5" />
           <ul>
             {projects.map((project, i) => (
-              <div key={i} className="mb-2">
-                <span>
-                  <div className="flex items-center">
-                    <div className="font-semibold">{project.title}</div>
-                    &nbsp;
-                    <a
-                      href={`https://${project.url}`}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="font-light underline"
-                    >
-                      {project.url}
-                    </a>
-                    {project.github && (
-                      <>
-                        &nbsp;&nbsp;
-                        <a href={project.github}>
-                          <img src="/github.png" className="w-4" />
-                        </a>
-                      </>
-                    )}
-                    <div className="flex-grow" />
-                    <div className="font-light hidden sm:block">
-                      {project.duration}
-                    </div>
+              <div key={i} className="mb-2.5">
+                <div className="flex items-center">
+                  <div className="font-semibold">{project.title}</div>
+                  &nbsp;
+                  <a
+                    href={`https://${project.url}`}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="font-light underline"
+                  >
+                    {project.url}
+                  </a>
+                  {project.github && (
+                    <>
+                      &nbsp;&nbsp;
+                      <a href={project.github}>
+                        <img src="/github.png" className="w-4" />
+                      </a>
+                    </>
+                  )}
+                  <div className="flex-grow" />
+                  <div className="font-light hidden xs:block">
+                    {project.duration}
                   </div>
-                  <p>{project.summary}</p>
-                  <p className="font-light">{project.description}</p>
-                </span>
+                </div>
+                <p>{project.summary}</p>
+                <p className="font-light">{project.description}</p>
               </div>
             ))}
           </ul>
@@ -225,22 +229,23 @@ const IndexPage = () => {
           <br />
 
           <h2 className="font-bold text-lg">EXPERIENCE</h2>
-          <hr className="mb-2" />
+          <hr className="mb-2.5" />
           <ul>
             {experiences.map((experience, i) => (
-              <div key={i} className="mb-2">
-                <span>
-                  <div className="flex items-center">
-                    <div className="font-semibold">{experience.title}</div>
-                    &nbsp;-&nbsp;
-                    <div className="font-light">{experience.summary}</div>
-                    <div className="flex-grow" />
-                    <div className="font-light hidden sm:block">
-                      {experience.duration}
-                    </div>
+              <div key={i} className="mb-2.5">
+                <div className="flex items-center">
+                  <div className="font-semibold">{experience.title}</div>
+                  &nbsp;•&nbsp;
+                  <div>{experience.summary}</div>
+                  <div className="flex-grow" />
+                  <div className="font-light hidden xs:block">
+                    {experience.duration}
                   </div>
-                  <p>{experience.description}</p>
-                </span>
+                </div>
+                <p className="font-light">{experience.description}</p>
+                {experience.additional && (
+                  <p className="font-light">{experience.additional}</p>
+                )}
               </div>
             ))}
           </ul>

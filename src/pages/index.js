@@ -74,6 +74,14 @@ const skills = [
 
 const experiences = [
   {
+    title: "Signaci Inc",
+    summary: "Full Stack Developer",
+    description: "Sole developer building the Minimum Viable Product.",
+    additional:
+      "Progressive Web Application built with Next.js, tailwindcss and PostgreSQL.",
+    duration: "Oct 2021 - Present",
+  },
+  {
     title: "Raffles Hall Developers",
     summary: "Student Backend Engineer",
     description:

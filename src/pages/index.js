@@ -17,7 +17,7 @@ const projects = [
     url: "bloomburger.co",
     summary: "Next.js, Bootstrap, Lightweight Charts, React Table",
     description:
-      "Dashboard to monitor financial markets with an edge, inspired by the Bloomberg Terminal. Individual effort",
+      "Dashboard to monitor financial markets with an edge, inspired by the Bloomberg Terminal. Individual effort.",
     github: "https://github.com/davelowqx/bloomburger",
     duration: "Jun 2021 - Present",
   },
@@ -36,7 +36,7 @@ const projects = [
     url: "carousearch.vercel.app",
     summary: "Next.js, tailwind-css",
     description:
-      "Alternative client for searching carousell.com with additional functionality and metrics. Individual effort",
+      "Alternative client for searching carousell.com with additional functionality and metrics. Individual effort.",
     github: "https://github.com/davelowqx/carousearch",
     duration: "Oct 2021 - Oct 2021",
   },
@@ -77,8 +77,6 @@ const experiences = [
     title: "Signaci Inc",
     summary: "Full Stack Developer",
     description: "Sole developer building the Minimum Viable Product.",
-    additional:
-      "Progressive Web Application built with Next.js, tailwindcss and PostgreSQL.",
     duration: "Oct 2021 - Present",
   },
   {
@@ -92,14 +90,14 @@ const experiences = [
     title: "National University of Singapore",
     summary: "Teaching Assistant",
     description:
-      "Conducted weekly tutorial sessions for Programming Methodology (CS1101S)",
+      "Conducted weekly tutorial sessions for Programming Methodology (CS1101S).",
     duration: "Aug 2021 - Dec 2021",
   },
   {
     title: "HatchDev",
     summary: "Co-founder, Creative Lead",
-    description: "Co-founded Digital Marketing Agency for Real Estate Agents.",
-    additional: `Responsible for creative media and websites to increase lead generation.`,
+    description:
+      "Responsible for building websites and creative media to increase lead generation.",
     duration: "Feb 2020 - Aug 2020",
   },
 ];
@@ -258,9 +256,6 @@ const IndexPage = () => {
                   </div>
                 </div>
                 <p className="font-light">{experience.description}</p>
-                {experience.additional && (
-                  <p className="font-light">{experience.additional}</p>
-                )}
               </div>
             ))}
           </ul>

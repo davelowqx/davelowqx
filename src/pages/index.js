@@ -5,15 +5,15 @@ import "../styles/global.css";
 // data
 const projects = [
   {
-    title: "signaci",
+    title: "Signaci",
     url: "signaci.com",
     summary: "Next.js, tailwindcss, PostgreSQL, Firebase Auth",
     description:
       "Full Stack PWA for traders and investors to share ideas, with their performance tracked. Individual effort.",
-    duration: "Aug 2021 - Present",
+    duration: "Oct 2021 - Present",
   },
   {
-    title: "bloomburger",
+    title: "Bloomburger",
     url: "bloomburger.co",
     summary: "Next.js, Bootstrap, Lightweight Charts, React Table",
     description:
@@ -22,7 +22,7 @@ const projects = [
     duration: "Jun 2021 - Present",
   },
   {
-    title: "finatic",
+    title: "Finatic",
     url: "finatic.vercel.app",
     summary:
       "Next.js, Semantic UI, Firebase Firestore/Storage, web3.js/MetaMask, Solidity",
@@ -32,7 +32,7 @@ const projects = [
     duration: "Jun 2021 - Aug 2021",
   },
   {
-    title: "carousearch",
+    title: "Carousearch",
     url: "carousearch.vercel.app",
     summary: "Next.js, tailwind-css",
     description:
@@ -41,7 +41,7 @@ const projects = [
     duration: "Oct 2021 - Oct 2021",
   },
   {
-    title: "fuzzyfilms",
+    title: "Fuzzyfilms",
     url: "fuzzyfilms.co",
     summary: "Gatsby.js, styled-components, Formik",
     description: "Static single page portfolio site. Individual effort.",
@@ -74,9 +74,10 @@ const skills = [
 
 const experiences = [
   {
-    title: "Signaci Inc",
+    title: "Signaci",
     summary: "Full Stack Developer",
-    description: "Sole developer building the Minimum Viable Product.",
+    description:
+      "Responsible for the development of the Minimum Viable Product.",
     duration: "Oct 2021 - Present",
   },
   {
@@ -211,7 +212,7 @@ const IndexPage = () => {
               <div key={i} className="mb-2.5">
                 <div className="flex items-center">
                   <div className="font-semibold">{project.title}</div>
-                  &nbsp;
+                  &nbsp;|&nbsp;
                   <a
                     href={`https://${project.url}`}
                     target="_blank"

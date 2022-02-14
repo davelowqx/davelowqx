@@ -31,44 +31,23 @@ const projects = [
     github: "https://github.com/davelowqx/finatic",
     duration: "Jun 2021 - Aug 2021",
   },
-  {
-    title: "Carousearch",
-    url: "carousearch.vercel.app",
-    summary: "Next.js, tailwind-css",
-    description:
-      "Alternative client for searching carousell.com with additional functionality and metrics. Individual effort.",
-    github: "https://github.com/davelowqx/carousearch",
-    duration: "Oct 2021 - Oct 2021",
-  },
-  {
-    title: "Fuzzyfilms",
-    url: "fuzzyfilms.co",
-    summary: "Gatsby.js, styled-components, Formik",
-    description: "Static single page portfolio site. Individual effort.",
-    github: "https://github.com/davelowqx/fuzzyfilms",
-    duration: "Jun 2021 - Jul 2021",
-  },
 ];
 
 const skills = [
   {
     title: "Languages",
     description:
-      "JavaScript, TypeScript, SQL, Java, C, Python, Solidity, HTML, CSS",
+      "JavaScript, TypeScript, SQL, Java, Python, C++, C, Solidity, HTML, CSS",
   },
   {
-    title: "Stacks",
+    title: "Technologies",
     description:
       "Node.js, React.js, Next.js, PostgreSQL, Express.js, tailwindcss, web3.js/MetaMask",
   },
   {
-    title: "Tools",
+    title: "Platforms/Tools",
     description:
-      "Git, Vim, VSCode, IntelliJ IDEA, Postman, Chrome DevTools, Figma",
-  },
-  {
-    title: "Services",
-    description: "AWS, GCP, Firebase, Vercel, Cloudfare, Heroku, Netlify",
+      "AWS, GCP, Firebase, Vercel, Cloudfare, Heroku, MongoDB, Postman, Figma",
   },
 ];
 

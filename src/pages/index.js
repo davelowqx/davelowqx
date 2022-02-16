@@ -9,7 +9,7 @@ const projects = [
     url: "signaci.com",
     summary: "Next.js, tailwindcss, PostgreSQL, Firebase Auth",
     description:
-      "Full Stack PWA for traders and investors to share ideas, with their performance tracked. Individual effort.",
+      "Full Stack PWA for traders and investors to share ideas, with their performance tracked.",
     duration: "Oct 2021 - Present",
   },
   {
@@ -17,7 +17,7 @@ const projects = [
     url: "bloomburger.co",
     summary: "Next.js, Bootstrap, Lightweight Charts, React Table",
     description:
-      "Dashboard to monitor financial markets with an edge, inspired by the Bloomberg Terminal. Individual effort.",
+      "Dashboard to monitor financial markets with an edge, inspired by the Bloomberg Terminal.",
     github: "https://github.com/davelowqx/bloomburger",
     duration: "Jun 2021 - Present",
   },
@@ -27,7 +27,7 @@ const projects = [
     summary:
       "Next.js, Semantic UI, Firebase Firestore/Storage, web3.js/MetaMask, Solidity",
     description:
-      "Decentralised Application for Crowdfunding on the Ethereum Testnet. Individual effort.",
+      "Decentralised Application for Crowdfunding on the Ethereum Testnet.",
     github: "https://github.com/davelowqx/finatic",
     duration: "Jun 2021 - Aug 2021",
   },
@@ -53,14 +53,23 @@ const skills = [
 
 const experiences = [
   {
-    title: "Signaci",
+    title: "Datature",
+    href: "https://www.linkedin.com/company/datature/",
     summary: "Full Stack Developer",
     description:
-      "Responsible for the development of the Minimum Viable Product.",
+      "Responsible for the API middlewares and Front End of Nexus, a platform for no-code MLOps.",
+    duration: "Feb 2022 - Present",
+  },
+  {
+    title: "Signaci",
+    href: "https://www.linkedin.com/company/signaci/",
+    summary: "Full Stack Developer",
+    description: "Led the development of the Minimum Viable Product.",
     duration: "Oct 2021 - Present",
   },
   {
     title: "Raffles Hall Developers",
+    href: "https://www.linkedin.com/company/rhdevs/",
     summary: "Student Backend Engineer",
     description:
       "Worked on maintaining and optimizing the MongoDB database for the Hall's applications.",
@@ -68,6 +77,7 @@ const experiences = [
   },
   {
     title: "National University of Singapore",
+    href: "https://www.linkedin.com/school/national-university-of-singapore/",
     summary: "Teaching Assistant",
     description:
       "Conducted weekly tutorial sessions for Programming Methodology (CS1101S).",
@@ -75,6 +85,7 @@ const experiences = [
   },
   {
     title: "HatchDev",
+    href: "https://www.linkedin.com/company/hatchdev-asia/",
     summary: "Co-founder, Creative Lead",
     description:
       "Responsible for building websites and creative media to increase lead generation.",
@@ -85,16 +96,12 @@ const experiences = [
 const education = {
   school: "National University of Singapore",
   duration: "Aug 2020 - May 2024",
-  degree: "Computer Science (Hons.), Minor in Management",
+  degree:
+    "Computer Science with Specialisation in Networking, Minor in Management.",
   details: [
     {
-      title: "Coursework",
-      description:
-        "Data Structures & Algorithms, Software Engineering, Operating Systems, Database, Networking, Security, Finance",
-    },
-    {
       title: "Achievements",
-      description: "NUS Merit Scholarship, Teaching Assistant",
+      description: "NUS Merit Scholarship",
     },
     {
       title: "Activities",
@@ -171,16 +178,31 @@ const IndexPage = () => {
               />
             ))}
           </div>
+
           <br />
-          <h2 className="font-bold text-lg">SKILLS</h2>
+
+          <h2 className="font-bold text-lg">EXPERIENCE</h2>
           <hr className="mb-2.5" />
-          {skills.map((skill, i) => (
-            <Detail
-              key={i}
-              title={skill.title}
-              description={skill.description}
-            />
-          ))}
+          <ul>
+            {experiences.map((experience, i) => (
+              <div key={i} className="mb-2.5">
+                <div className="flex items-center">
+                  <div className="font-semibold hover:underline">
+                    <a href={experience.href} target="_blank" rel="noreferrer">
+                      {experience.title}
+                    </a>
+                  </div>
+                  &nbsp;•&nbsp;
+                  <div>{experience.summary}</div>
+                  <div className="flex-grow" />
+                  <div className="font-light hidden xs:block">
+                    {experience.duration}
+                  </div>
+                </div>
+                <p className="font-light">{experience.description}</p>
+              </div>
+            ))}
+          </ul>
 
           <br />
 
@@ -221,24 +243,15 @@ const IndexPage = () => {
 
           <br />
 
-          <h2 className="font-bold text-lg">EXPERIENCE</h2>
+          <h2 className="font-bold text-lg">SKILLS</h2>
           <hr className="mb-2.5" />
-          <ul>
-            {experiences.map((experience, i) => (
-              <div key={i} className="mb-2.5">
-                <div className="flex items-center">
-                  <div className="font-semibold">{experience.title}</div>
-                  &nbsp;•&nbsp;
-                  <div>{experience.summary}</div>
-                  <div className="flex-grow" />
-                  <div className="font-light hidden xs:block">
-                    {experience.duration}
-                  </div>
-                </div>
-                <p className="font-light">{experience.description}</p>
-              </div>
-            ))}
-          </ul>
+          {skills.map((skill, i) => (
+            <Detail
+              key={i}
+              title={skill.title}
+              description={skill.description}
+            />
+          ))}
 
           <br />
         </div>

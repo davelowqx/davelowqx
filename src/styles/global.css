@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+::selection {
+  background: lightgray;
+}
+
 html,
 body {
   padding: 0;

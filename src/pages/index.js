@@ -64,7 +64,8 @@ const experiences = [
     title: "Signaci",
     href: "https://www.linkedin.com/company/signaci/",
     summary: "Full Stack Developer",
-    description: "Led the development of the Minimum Viable Product.",
+    description:
+      "Led the development of the Minimum Viable Product, a Progressive Web Application for sharing trade ideas.",
     duration: "Oct 2021 - Present",
   },
   {
@@ -80,7 +81,7 @@ const experiences = [
     href: "https://www.linkedin.com/school/national-university-of-singapore/",
     summary: "Teaching Assistant",
     description:
-      "Conducted weekly tutorial sessions for Programming Methodology (CS1101S).",
+      "Conducted weekly tutorials for CS1101S - Programming Methodology I.",
     duration: "Aug 2021 - Dec 2021",
   },
   {
@@ -88,7 +89,7 @@ const experiences = [
     href: "https://www.linkedin.com/company/hatchdev-asia/",
     summary: "Co-founder, Creative Lead",
     description:
-      "Responsible for building websites and creative media to increase lead generation.",
+      "Responsible for creative media and websites to increase lead generation.",
     duration: "Feb 2020 - Aug 2020",
   },
 ];

@@ -1,14 +1,14 @@
-import React from "react";
-import Helmet from "react-helmet";
+import React from 'react'
+import Helmet from 'react-helmet'
 
-const SITE_TITLE = "Dave Low";
-const SITE_DESCRIPTION = "Portfolio Site";
-const SITE_URL = "https://davelowqx.com";
+const SITE_TITLE = 'Dave Low'
+const SITE_DESCRIPTION = 'Portfolio Site'
+const SITE_URL = 'https://davelowqx.com'
 
 const Seo = ({
   title = SITE_TITLE,
   description = SITE_DESCRIPTION,
-  path = "",
+  path = '',
 }) => {
   return (
     <Helmet>
@@ -35,7 +35,7 @@ const Seo = ({
       <meta property="og:url" content={SITE_URL + path} />
       <meta property="og:image" content={`${SITE_URL}/og_logo.png`} />
     </Helmet>
-  );
-};
+  )
+}
 
-export default Seo;
+export default Seo

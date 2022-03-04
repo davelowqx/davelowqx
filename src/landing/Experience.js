@@ -4,26 +4,30 @@ export default function Experience() {
     {
       title: 'Datature',
       href: 'https://www.linkedin.com/company/datature/',
-      summary: 'Full Stack Developer',
+      summary: 'Software Engineer Intern',
       description:
         'Responsible for the API middlewares and Front End of Nexus, a web platform for no-code MLOps.',
       duration: 'Feb 2022 - Present',
+      technologies: 'Typescript/Next.js, Stripe, Auth0, Blueprint.js',
     },
     {
       title: 'Signaci',
       href: 'https://www.linkedin.com/company/signaci/',
-      summary: 'Full Stack Developer',
+      summary: 'Software Engineer',
       description:
         'Led the development of the Minimum Viable Product, a Progressive Web Application for sharing trade ideas.',
-      duration: 'Oct 2021 - Feb 2022',
+      duration: 'Oct 2021 - Jan 2022',
+      technologies:
+        'Typescript/Next.js, tailwindcss, PostgreSQL, Firebase Auth',
     },
     {
       title: 'Raffles Hall Developers',
       href: 'https://www.linkedin.com/company/rhdevs/',
       summary: 'Student Backend Engineer',
       description:
-        "Worked on maintaining and optimizing the MongoDB database for the Hall's applications.",
+        "Worked on maintaining and optimizing the database for the Hall's applications.",
       duration: 'Aug 2021 - Present',
+      technologies: 'MongoDB, Flask',
     },
     {
       title: 'National University of Singapore',
@@ -62,7 +66,10 @@ export default function Experience() {
                 {experience.duration}
               </div>
             </div>
-            <p className="font-light">{experience.description}</p>
+            <p>{experience.description}</p>
+            {experience.technologies && (
+              <p className="font-light">{experience.technologies}</p>
+            )}
           </div>
         ))}
       </ul>

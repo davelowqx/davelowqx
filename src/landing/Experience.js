@@ -2,13 +2,23 @@ import React from 'react'
 export default function Experience() {
   const experiences = [
     {
+      title: 'Quantedge',
+      href: 'https://www.linkedin.com/company/quantedge/',
+      summary: 'Software Engineer Intern',
+      description:
+        'Quantedge was founded in 2006 and currently manages more than USD 2 billion worth of assets.',
+      duration: 'May 2022 - Aug 2022',
+      technologies: '',
+    },
+    {
       title: 'Datature',
       href: 'https://www.linkedin.com/company/datature/',
       summary: 'Software Engineer Intern',
       description:
-        'Responsible for the API middlewares and Front End of Nexus, a web platform for no-code MLOps.',
-      duration: 'Feb 2022 - Present',
-      technologies: 'Typescript/Next.js, Stripe, Auth0, Blueprint.js',
+        'Responsible for the APIs and Front End of Nexus, a web platform for no-code MLOps.',
+      duration: 'Feb 2022 - May 2022',
+      technologies:
+        'Typescript/Next.js, Stripe, Auth0, Segment, MailChimp, Slack, Blueprint.js',
     },
     {
       title: 'Signaci',

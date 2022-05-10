@@ -43,17 +43,8 @@ export default function Experience() {
       title: 'National University of Singapore',
       href: 'https://www.linkedin.com/school/national-university-of-singapore/',
       summary: 'Teaching Assistant',
-      description:
-        'Conducted weekly tutorials for CS1101S - Programming Methodology I.',
+      description: 'CS1101S - Programming Methodology I.',
       duration: 'Aug 2021 - Dec 2021',
-    },
-    {
-      title: 'HatchDev',
-      href: 'https://www.linkedin.com/company/hatchdev-asia/',
-      summary: 'Co-founder, Creative Lead',
-      description:
-        'Responsible for creative media and websites to increase lead generation.',
-      duration: 'Feb 2020 - Aug 2020',
     },
   ]
   return (

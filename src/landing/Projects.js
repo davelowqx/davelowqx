@@ -7,7 +7,7 @@ export default function Projects() {
       url: 'signaci.com',
       summary: 'Next.js, tailwindcss, PostgreSQL, Firebase Auth',
       description:
-        'Full Stack PWA for traders and investors to share ideas, with their performance tracked.',
+        'Progressive Web App for traders and investors to share ideas, with their performance tracked.',
       duration: 'Oct 2021 - Present',
     },
     {

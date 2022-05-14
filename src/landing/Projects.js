@@ -15,7 +15,7 @@ export default function Projects() {
       url: 'bloomburger.co',
       summary: 'Next.js, Bootstrap, Lightweight Charts, React Table',
       description:
-        'Dashboard to monitor financial markets with an edge, inspired by the Bloomberg Terminal.',
+        'Dashboard to monitor financial markets, inspired by the Bloomberg Terminal.',
       github: 'https://github.com/davelowqx/bloomburger',
       duration: 'Jun 2021 - Present',
     },

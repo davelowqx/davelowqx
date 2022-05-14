@@ -25,7 +25,7 @@ export default function Experience() {
       href: 'https://www.linkedin.com/company/signaci/',
       summary: 'Software Engineer',
       description:
-        'Led the development of the Minimum Viable Product, a Progressive Web Application for sharing trade ideas.',
+        'Developed the Minimum Viable Product, a Progressive Web App for sharing trade ideas.',
       duration: 'Oct 2021 - Jan 2022',
       technologies:
         'Typescript/Next.js, tailwindcss, PostgreSQL, Firebase Auth',

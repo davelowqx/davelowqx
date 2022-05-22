@@ -12,9 +12,9 @@ const IndexPage = () => {
         <div className="mx-auto max-w-3xl leading-snug text-gray-900">
           <Title />
           <br />
-          <Education />
-          <br />
           <Experience />
+          <br />
+          <Education />
           <br />
           <Projects />
           <br />

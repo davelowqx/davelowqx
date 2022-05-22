@@ -5,10 +5,9 @@ export default function Experience() {
       title: 'Quantedge',
       href: 'https://www.linkedin.com/company/quantedge/',
       summary: 'Software Engineer Intern',
-      description:
-        'Quantedge was founded in 2006 and currently manages more than USD 2 billion worth of assets.',
+      description: 'Worked on Event-Driven Architecture.',
       duration: 'May 2022 - Aug 2022',
-      technologies: '',
+      technologies: 'Python, SQL, RabbitMQ, Docker',
     },
     {
       title: 'Datature',

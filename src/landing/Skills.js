@@ -6,17 +6,12 @@ export default function Skills() {
     {
       title: 'Languages',
       description:
-        'JavaScript, TypeScript, SQL, Java, Python, C++, C, Solidity, HTML, CSS',
+        'TypeScript, SQL, Java, Python, C++',
     },
     {
       title: 'Technologies',
       description:
-        'Node.js, React.js, Next.js, PostgreSQL, Express.js, tailwindcss, web3.js/MetaMask',
-    },
-    {
-      title: 'Platforms/Tools',
-      description:
-        'AWS, GCP, Firebase, Vercel, Cloudfare, Heroku, MongoDB, Postman, Figma',
+        'Docker, RabbitMQ, MongoDB, AWS, GCP, Cloudfare',
     },
   ]
 

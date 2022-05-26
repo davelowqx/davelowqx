@@ -3,14 +3,6 @@ import React from 'react'
 export default function Projects() {
   const projects = [
     {
-      title: 'Signaci',
-      url: 'signaci.com',
-      summary: 'Next.js, tailwindcss, PostgreSQL, Firebase Auth',
-      description:
-        'Progressive Web App for traders and investors to share ideas, with their performance tracked.',
-      duration: 'Oct 2021 - Present',
-    },
-    {
       title: 'Bloomburger',
       url: 'bloomburger.co',
       summary: 'Next.js, Bootstrap, Lightweight Charts, React Table',
@@ -18,6 +10,14 @@ export default function Projects() {
         'Dashboard to monitor financial markets, inspired by the Bloomberg Terminal.',
       github: 'https://github.com/davelowqx/bloomburger',
       duration: 'Jun 2021 - Present',
+    },
+    {
+      title: 'Signaci',
+      url: 'signaci.com',
+      summary: 'Next.js, tailwindcss, PostgreSQL, Firebase Auth',
+      description:
+        'Progressive Web App for traders and investors to share ideas, with their performance tracked.',
+      duration: 'Oct 2021 - Present',
     },
     {
       title: 'Finatic',

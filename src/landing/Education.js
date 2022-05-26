@@ -14,7 +14,7 @@ export default function Education() {
       {
         title: 'Activities',
         description:
-          'Developers Club, Fintech Society (Blockchain), Media Team, Basketball',
+          'Developers Club, Fintech Society (Blockchain), Media, Basketball',
       },
     ],
   }

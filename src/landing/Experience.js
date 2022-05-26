@@ -20,25 +20,6 @@ export default function Experience() {
         'Typescript/Next.js, Stripe, Auth0, Segment, MailChimp, Slack, Blueprint.js',
     },
     {
-      title: 'Signaci',
-      href: 'https://www.linkedin.com/company/signaci/',
-      summary: 'Software Engineer',
-      description:
-        'Developed the Minimum Viable Product, a Progressive Web App for sharing trade ideas.',
-      duration: 'Oct 2021 - Jan 2022',
-      technologies:
-        'Typescript/Next.js, tailwindcss, PostgreSQL, Firebase Auth',
-    },
-    {
-      title: 'Raffles Hall Developers',
-      href: 'https://www.linkedin.com/company/rhdevs/',
-      summary: 'Student Backend Engineer',
-      description:
-        "Worked on maintaining and optimizing the database for the Hall's applications.",
-      duration: 'Aug 2021 - Present',
-      technologies: 'MongoDB, Flask',
-    },
-    {
       title: 'National University of Singapore',
       href: 'https://www.linkedin.com/school/national-university-of-singapore/',
       summary: 'Teaching Assistant',

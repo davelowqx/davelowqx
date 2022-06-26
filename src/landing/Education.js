@@ -5,7 +5,7 @@ export default function Education() {
     school: 'National University of Singapore',
     duration: 'Aug 2020 - May 2024',
     degree:
-      'Computer Science (Networking and Distributed Systems), Minor in Management.',
+      'Computer Science (Parallel Computing/Algorithms), Minor in Management.',
     details: [
       {
         title: 'Achievements',

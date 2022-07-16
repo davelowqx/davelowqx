@@ -5,7 +5,7 @@ export default function Experience() {
       title: 'Quantedge',
       href: 'https://www.linkedin.com/company/quantedge/',
       summary: 'Software Engineer Intern',
-      description: 'Worked on Event-Driven Architecture.',
+      description: 'Worked on Event-Driven Architecture with message queues.',
       duration: 'May 2022 - Aug 2022',
       technologies: 'Python, SQL, RabbitMQ, Docker',
     },

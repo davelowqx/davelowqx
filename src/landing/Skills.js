@@ -5,13 +5,11 @@ export default function Skills() {
   const skills = [
     {
       title: 'Languages',
-      description:
-        'TypeScript, SQL, Java, Python, C++',
+      description: 'TypeScript, SQL, Python, Java, C++',
     },
     {
       title: 'Technologies',
-      description:
-        'Docker, RabbitMQ, MongoDB, AWS, GCP, Cloudfare',
+      description: 'Docker, RabbitMQ, MongoDB, AWS, GCP, Cloudfare',
     },
   ]
 

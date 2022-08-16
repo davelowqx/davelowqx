@@ -5,19 +5,20 @@ export default function Experience() {
       title: 'Quantedge',
       href: 'https://www.linkedin.com/company/quantedge/',
       summary: 'Software Engineer Intern',
-      description: 'Worked on Event-Driven Architecture with message queues.',
+      description: `Worked on Event-Driven Architecture utilising message queue along with auxiliary microservices: central task scheduler, logs aggregation and caching service.`,
       duration: 'May 2022 - Aug 2022',
-      technologies: 'Python, SQL, RabbitMQ, Docker',
+      technologies:
+        'Python, SQL, RabbitMQ, Docker, Apache Airflow, Elasticsearch, Grafana, Redis',
     },
     {
       title: 'Datature',
       href: 'https://www.linkedin.com/company/datature/',
       summary: 'Software Engineer Intern',
       description:
-        'Responsible for the APIs and Front End of Nexus, a web platform for no-code MLOps.',
+        'Responsible for the APIs and Front End of Nexus, a web platform for no-code MLOps. Handled billing, authentication, bulk asset uploads and image annotations.',
       duration: 'Feb 2022 - May 2022',
       technologies:
-        'Typescript/Next.js, Stripe, Auth0, Segment, MailChimp, Slack, Blueprint.js',
+        'Typescript/Next.js, Stripe, Auth0, Segment, MailChimp, Slack, Blueprint.js, Leaflet',
     },
     {
       title: 'National University of Singapore',

@@ -16,9 +16,9 @@ const IndexPage = () => {
           <br />
           <Education />
           <br />
-          <Projects />
-          <br />
           <Skills />
+          <br />
+          <Projects />
         </div>
       </div>
     </>

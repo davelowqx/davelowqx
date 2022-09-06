@@ -2,6 +2,14 @@ import React from 'react'
 export default function Experience() {
   const experiences = [
     {
+      title: 'AlphaGrep',
+      href: 'https://www.linkedin.com/company/alpha-grep/',
+      summary: 'Software Engineer Intern',
+      description: `Building on latency sensitive applications for the FX Trading Desk.`,
+      duration: 'Sep 2022 - Present',
+      technologies: 'C/C++, Java',
+    },
+    {
       title: 'Quantedge',
       href: 'https://www.linkedin.com/company/quantedge/',
       summary: 'Software Engineer Intern',

@@ -1,2 +1,1 @@
-Full stack developer with keen interest in financial markets.
-My engineering resume can be found at [davelowqx.com](https://davelowqx.com)
+Software engineer with interest in financial markets. [davelowqx.com](https://davelowqx.com)

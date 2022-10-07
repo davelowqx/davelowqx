@@ -5,9 +5,9 @@ export default function Experience() {
       title: 'AlphaGrep',
       href: 'https://www.linkedin.com/company/alpha-grep/',
       summary: 'Software Engineer Intern',
-      description: `Building on latency sensitive applications for the FX Trading Desk.`,
+      description: `Building low latency applications for the FX Trading Desk.`,
       duration: 'Sep 2022 - Present',
-      technologies: 'C/C++, Java',
+      technologies: 'C/C++',
     },
     {
       title: 'Quantedge',

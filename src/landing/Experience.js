@@ -5,7 +5,7 @@ export default function Experience() {
       title: 'AlphaGrep',
       href: 'https://www.linkedin.com/company/alpha-grep/',
       summary: 'Software Engineer Intern',
-      description: `Building low latency applications for the FX Trading Desk.`,
+      description: `Working on a low-latency matching engine for OTC trades, communicating over the FIX protocol.`,
       duration: 'Sep 2022 - Present',
       technologies: 'C/C++',
     },
@@ -13,7 +13,7 @@ export default function Experience() {
       title: 'Quantedge',
       href: 'https://www.linkedin.com/company/quantedge/',
       summary: 'Software Engineer Intern',
-      description: `Worked on Event-Driven Architecture utilising message queue along with auxiliary microservices: central task scheduler, logs aggregation and caching service.`,
+      description: `Worked on Event-Driven Architecture centered around a message queue, along with auxiliary microservices: central task scheduler, logs aggregation and caching.`,
       duration: 'May 2022 - Aug 2022',
       technologies:
         'Python, SQL, RabbitMQ, Docker, Apache Airflow, Elasticsearch, Grafana, Redis',

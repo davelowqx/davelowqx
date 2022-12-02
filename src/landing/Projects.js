@@ -4,7 +4,7 @@ export default function Projects() {
   const projects = [
     {
       title: 'Bloomburger',
-      url: 'bloomburger.co',
+      url: 'bloomburger.xyz',
       summary: 'Next.js, Bootstrap, Lightweight Charts, React Table',
       description:
         'Dashboard to monitor financial markets, inspired by the Bloomberg Terminal.',

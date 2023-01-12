@@ -17,7 +17,7 @@ export default function Projects() {
       summary: 'Next.js, tailwindcss, PostgreSQL, Firebase Auth',
       description:
         'Progressive Web App for traders and investors to share ideas, with their performance tracked.',
-      duration: 'Oct 2021 - Present',
+      duration: 'Oct 2021 - Aug 2022',
     },
     {
       title: 'Finatic',

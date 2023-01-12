@@ -5,7 +5,7 @@ export default function Education() {
     school: 'National University of Singapore',
     duration: 'Aug 2020 - May 2024',
     degree:
-      'Computer Science (Focus on Parallel Computing), Minor in Quantitative Finance',
+      'Computer Science (Focus on Parallel Computing), Minor in Financial Math',
     details: [
       {
         title: 'Achievements',
@@ -14,7 +14,7 @@ export default function Education() {
       {
         title: 'Activities',
         description:
-          'Developers Club, Fintech Society (Blockchain), Media, Basketball, Dance',
+          'Developers Club, Fintech Society, Media, Basketball, Dance',
       },
     ],
   }

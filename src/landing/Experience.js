@@ -5,7 +5,7 @@ export default function Experience() {
       title: 'AlphaGrep',
       href: 'https://www.linkedin.com/company/alpha-grep/',
       summary: 'Software Engineer Intern',
-      description: `Worked on a low-latency matching engine/aggregator for OTC trades, communicating over FIX protocol.`,
+      description: `Worked on a low-latency matching engine/aggregator for OTC trades.`,
       duration: 'Sep 2022 - Dec 2022',
       technologies: 'C/C++',
     },
@@ -23,7 +23,7 @@ export default function Experience() {
       href: 'https://www.linkedin.com/company/datature/',
       summary: 'Software Engineer Intern',
       description:
-        'Responsible for the APIs and Front End of Nexus, a web platform for no-code MLOps. Handled billing, authentication, bulk uploads and image annotations.',
+        'Worked on the web app, handling billing, authentication, bulk uploads and image annotations.',
       duration: 'Feb 2022 - May 2022',
       technologies:
         'Typescript/Next.js, Stripe, Auth0, Segment, MailChimp, Slack, Blueprint.js, Leaflet',

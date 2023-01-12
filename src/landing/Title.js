@@ -17,7 +17,7 @@ export default function Title() {
           className={`${!showEmail && 'cursor-pointer bg-gray-100'}`}
           onClick={() => !showEmail && setShowEmail(true)}
         >
-          {showEmail ? 'me[at]davelowqx.com' : 'email'}
+          {showEmail ? 'davelowqx[at]gmail' : 'email'}
         </div>
         {links.map(({ title, href }, i) => (
           <span key={i}>

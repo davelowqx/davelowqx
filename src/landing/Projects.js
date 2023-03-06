@@ -11,24 +11,6 @@ export default function Projects() {
       github: 'https://github.com/davelowqx/bloomburger',
       duration: 'Jun 2021 - Present',
     },
-    {
-      title: 'Signaci',
-      url: 'signaci.com',
-      summary: 'Next.js, tailwindcss, PostgreSQL, Firebase Auth',
-      description:
-        'Progressive Web App for traders and investors to share ideas, with their performance tracked.',
-      duration: 'Oct 2021 - Aug 2022',
-    },
-    {
-      title: 'Finatic',
-      url: 'finatic.vercel.app',
-      summary:
-        'Next.js, Semantic UI, Firebase Firestore/Storage, web3.js/MetaMask, Solidity',
-      description:
-        'Decentralised Application for Crowdfunding on the Ethereum Testnet.',
-      github: 'https://github.com/davelowqx/finatic',
-      duration: 'Jun 2021 - Aug 2021',
-    },
   ]
   return (
     <>

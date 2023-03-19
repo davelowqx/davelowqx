@@ -2,37 +2,33 @@ import React from 'react'
 export default function Experience() {
   const experiences = [
     {
-      title: 'AlphaGrep',
+      company: 'AlphaGrep',
       href: 'https://www.linkedin.com/company/alpha-grep/',
       summary: 'Software Engineer Intern',
-      description: `Worked on a low-latency matching engine/aggregator for OTC trades.`,
+      description: `Worked on a C/C++ low-latency trading application for FX. Concurrent matching engine/aggregator, with a multi-threaded, edge-triggered epoll server that communicated to clients over the FIX protocol.`,
       duration: 'Sep 2022 - Dec 2022',
-      technologies: 'C/C++',
     },
     {
-      title: 'Quantedge',
+      company: 'Quantedge',
       href: 'https://www.linkedin.com/company/quantedge/',
       summary: 'Software Engineer Intern',
-      description: `Worked on Event-Driven Architecture centered around a message queue, along with auxiliary microservices: central task scheduler, logs aggregation and caching.`,
+      description: `Worked on an Event-Driven microservices architecture centered around a RabbitMQ message queue. Microservices include central task scheduler with Apache Airflow, logs aggregator with Grafana/Elasticsearch and caching with Redis.`,
       duration: 'May 2022 - Aug 2022',
-      technologies:
-        'Python, SQL, RabbitMQ, Docker, Apache Airflow, Elasticsearch, Grafana, Redis',
     },
     {
-      title: 'Datature',
+      company: 'Datature',
       href: 'https://www.linkedin.com/company/datature/',
       summary: 'Software Engineer Intern',
       description:
-        'Worked on the web app, handling billing, authentication, bulk uploads and image annotations.',
+        'Worked on the web app, handling billing, authentication, bulk uploads and image annotations. Frontend was built on Typescript/Next.js with Leaflet for image annotations, and APIs used include Stripe, Auth0, Slack and Twilio.',
       duration: 'Feb 2022 - May 2022',
-      technologies:
-        'Typescript/Next.js, Stripe, Auth0, Segment, MailChimp, Slack, Blueprint.js, Leaflet',
     },
     {
-      title: 'National University of Singapore',
+      company: 'National University of Singapore',
       href: 'https://www.linkedin.com/school/national-university-of-singapore/',
       summary: 'Teaching Assistant',
-      description: 'CS1101S - Programming Methodology I.',
+      description:
+        'CS1101S - Programming Methodology I, a functional programming module using a stricter form of JavaScript.',
       duration: 'Aug 2021 - Dec 2021',
     },
   ]
@@ -46,7 +42,7 @@ export default function Experience() {
             <div className="flex items-center">
               <div className="font-semibold hover:underline">
                 <a href={experience.href} target="_blank" rel="noreferrer">
-                  {experience.title}
+                  {experience.company}
                 </a>
               </div>
               &nbsp;•&nbsp;
@@ -57,9 +53,6 @@ export default function Experience() {
               </div>
             </div>
             <p>{experience.description}</p>
-            {experience.technologies && (
-              <p className="font-light">{experience.technologies}</p>
-            )}
           </div>
         ))}
       </ul>

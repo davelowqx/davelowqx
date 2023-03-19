@@ -9,7 +9,7 @@ export default function Skills() {
     },
     {
       title: 'Technologies',
-      description: 'Docker, RabbitMQ, MongoDB, AWS, GCP, Cloudfare',
+      description: 'Docker, RabbitMQ, AWS, GCP, Cloudfare',
     },
   ]
 

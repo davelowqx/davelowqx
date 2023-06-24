@@ -5,21 +5,21 @@ export default function Experience() {
       company: 'Aures Capital',
       href: 'https://www.linkedin.com/company/aures-capital/',
       summary: 'Software Engineer Intern',
-      description: `Working on an execution management system.`,
+      description: `Working on trading infrastructure to execute quantitative strategies on crypto markets.`,
       duration: 'May 2023 - Present',
     },
     {
       company: 'AlphaGrep',
       href: 'https://www.linkedin.com/company/alpha-grep/',
       summary: 'Software Engineer Intern',
-      description: `Worked on a C/C++ low-latency trading application for FX. Concurrent matching engine/aggregator, with a multi-threaded, edge-triggered epoll server that communicated to clients over the FIX protocol.`,
+      description: `Worked on a C/C++ low-latency matching engine/liquidity aggregator, with a multi-threaded server that communicated over FIX.`,
       duration: 'Sep 2022 - Dec 2022',
     },
     {
       company: 'Quantedge',
       href: 'https://www.linkedin.com/company/quantedge/',
       summary: 'Software Engineer Intern',
-      description: `Worked on an Event-Driven microservices architecture centered around a RabbitMQ message queue. Microservices include central task scheduler with Apache Airflow, logs aggregator with Grafana/Elasticsearch and caching with Redis.`,
+      description: `Worked on an Event-Driven microservices architecture with RabbitMQ. Services include task scheduling with Apache Airflow, logs aggregation with Grafana/Elasticsearch and caching with Redis.`,
       duration: 'May 2022 - Aug 2022',
     },
     {
@@ -27,7 +27,7 @@ export default function Experience() {
       href: 'https://www.linkedin.com/company/datature/',
       summary: 'Software Engineer Intern',
       description:
-        'Worked on the web app, handling billing, authentication, bulk uploads and image annotations. Frontend was built on Typescript/Next.js with Leaflet for image annotations, and APIs used include Stripe, Auth0, Slack and Twilio.',
+        'Worked on the web app, handling billing, authentication, asset uploads and image annotations.',
       duration: 'Feb 2022 - May 2022',
     },
     {

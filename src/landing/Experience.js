@@ -35,7 +35,7 @@ export default function Experience() {
       href: 'https://www.linkedin.com/school/national-university-of-singapore/',
       summary: 'Teaching Assistant',
       description:
-        'CS1101S - Programming Methodology I, a functional programming module using a stricter form of JavaScript.',
+        'CS1101S - Programming Methodology I, a functional programming module taught in JavaScript.',
       duration: 'Aug 2021 - Dec 2021',
     },
   ]

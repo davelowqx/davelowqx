@@ -10,13 +10,6 @@ export default function Projects() {
       github: 'https://github.com/davelowqx/bloomburger',
       duration: 'Jun 2021 - Present',
     },
-    {
-      title: 'Alex',
-      summary: 'Python, HTML',
-      description:
-        'Alerts microservice processing tick data from Binance websocket, with a raw HTML front end.',
-      duration: 'Jan 2023 - Present',
-    },
   ]
   return (
     <>

@@ -2,11 +2,18 @@ import React from 'react'
 export default function Experience() {
   const experiences = [
     {
+      company: 'Motional',
+      href: 'https://www.linkedin.com/company/motionaldrive/',
+      summary: 'Software Engineer Intern',
+      description: `Writing performant code with the Remote Vehicle Assistance team.`,
+      duration: 'Sep 2023 - Present',
+    },
+    {
       company: 'Aures Capital',
       href: 'https://www.linkedin.com/company/aures-capital/',
       summary: 'Software Engineer Intern',
       description: `Working on trading infrastructure to execute quantitative strategies on crypto markets.`,
-      duration: 'May 2023 - Present',
+      duration: 'May 2023 - Aug 2023',
     },
     {
       company: 'AlphaGrep',

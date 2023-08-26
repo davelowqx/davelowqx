@@ -12,7 +12,7 @@ export default function Experience() {
       company: 'Aures Capital',
       href: 'https://www.linkedin.com/company/aures-capital/',
       summary: 'Software Engineer Intern',
-      description: `Working on trading infrastructure to execute mid-frequency strategies on crypto markets. Python and Kafka`,
+      description: `Working on trading infrastructure to execute mid-frequency strategies on crypto markets. Python and Kafka.`,
       duration: 'May 2023 - Aug 2023',
     },
     {

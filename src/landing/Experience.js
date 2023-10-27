@@ -5,14 +5,14 @@ export default function Experience() {
       company: 'Motional',
       href: 'https://www.linkedin.com/company/motionaldrive/',
       summary: 'Software Engineer Intern',
-      description: `Working on latency sensitive applications in the Remote Vehicle Assistance team.`,
+      description: `Working on performant applications in the Remote Vehicle Assistance team. C++/Python.`,
       duration: 'Sep 2023 - Present',
     },
     {
       company: 'Aures Capital',
       href: 'https://www.linkedin.com/company/aures-capital/',
       summary: 'Software Engineer Intern',
-      description: `Working on trading infrastructure to execute mid-frequency strategies on crypto markets. Python and Kafka.`,
+      description: `Worked on trading infrastructure to execute mid-frequency strategies on crypto markets. Python and Kafka.`,
       duration: 'May 2023 - Aug 2023',
     },
     {

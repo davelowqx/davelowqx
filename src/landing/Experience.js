@@ -5,28 +5,28 @@ export default function Experience() {
       company: 'Motional',
       href: 'https://www.linkedin.com/company/motionaldrive/',
       summary: 'Software Engineer Intern',
-      description: `Working on performant applications in the Remote Vehicle Assistance team. C++/Python.`,
+      description: `Working on C++ applications in the Remote Vehicle Assistance team.`,
       duration: 'Sep 2023 - Present',
     },
     {
       company: 'Aures Capital',
       href: 'https://www.linkedin.com/company/aures-capital/',
       summary: 'Software Engineer Intern',
-      description: `Worked on trading infrastructure to execute mid-frequency strategies on crypto markets. Python and Kafka.`,
+      description: `Worked on trading infrastructure to execute mid-frequency strategies on crypto markets. Python/Kafka.`,
       duration: 'May 2023 - Aug 2023',
     },
     {
       company: 'AlphaGrep',
       href: 'https://www.linkedin.com/company/alpha-grep/',
       summary: 'Software Engineer Intern',
-      description: `Worked on a C/C++ low-latency matching engine/liquidity aggregator, with a multi-threaded server that communicated over FIX.`,
+      description: `Worked on a C/C++ matching engine/aggregator, with a multi-threaded FIX server.`,
       duration: 'Sep 2022 - Dec 2022',
     },
     {
       company: 'Quantedge',
       href: 'https://www.linkedin.com/company/quantedge/',
       summary: 'Software Engineer Intern',
-      description: `Worked on an Event-Driven microservices architecture with RabbitMQ. Services include task scheduling with Apache Airflow, logs aggregation with Grafana/Elasticsearch and caching with Redis.`,
+      description: `Designed and built an Event-Driven microservices architecture revolving around RabbitMQ.`,
       duration: 'May 2022 - Aug 2022',
     },
     {
@@ -34,7 +34,7 @@ export default function Experience() {
       href: 'https://www.linkedin.com/company/datature/',
       summary: 'Software Engineer Intern',
       description:
-        'Worked on the web app, handling billing, authentication, asset uploads and image annotations.',
+        'Worked on the web app, handling billing, authentication, file uploads and image annotations.',
       duration: 'Feb 2022 - May 2022',
     },
     {

@@ -5,16 +5,16 @@ export default function Education() {
     school: 'National University of Singapore',
     duration: 'Aug 2020 - May 2024',
     degree:
-      'Computer Science (Focus on Parallel Computing), Minor in Financial Math',
+      'Computer Science (Focus on Parallel Computing)',
     details: [
       {
         title: 'Achievements',
         description: 'NUS Merit Scholarship',
       },
       {
-        title: 'Activities',
+        title: 'Extracurriculars',
         description:
-          'Developers Club, Fintech Society, Media, Basketball, Dance',
+          'Media (Video), Basketball, Dance',
       },
     ],
   }

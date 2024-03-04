@@ -6,7 +6,7 @@ export default function Experience() {
       href: 'https://www.linkedin.com/company/motionaldrive/',
       summary: 'Software Engineer Intern',
       description: `Working on C++ applications in the Remote Vehicle Assistance team.`,
-      duration: 'Sep 2023 - Present',
+      duration: 'Sep 2023 - Feb 2023',
     },
     {
       company: 'Aures Capital',

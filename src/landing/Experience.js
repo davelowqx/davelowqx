@@ -2,11 +2,18 @@ import React from 'react'
 export default function Experience() {
   const experiences = [
     {
+      company: 'TikTok',
+      href: 'https://www.linkedin.com/company/bytedance/',
+      summary: 'Software Engineer Intern',
+      description: `Will be working on cloud infrastructure.`,
+      duration: 'May 2024 - Aug 2024',
+    },
+    {
       company: 'Motional',
       href: 'https://www.linkedin.com/company/motionaldrive/',
       summary: 'Software Engineer Intern',
-      description: `Working on C++ applications in the Remote Vehicle Assistance team.`,
-      duration: 'Sep 2023 - Feb 2023',
+      description: `Worked on C++ applications in the Remote Vehicle Assistance team.`,
+      duration: 'Sep 2023 - Feb 2024',
     },
     {
       company: 'Aures Capital',

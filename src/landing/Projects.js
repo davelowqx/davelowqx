@@ -8,7 +8,7 @@ export default function Projects() {
       summary: 'Next.js, Bootstrap, Lightweight Charts, React Table',
       description: 'Web version of the Bloomberg Terminal.',
       github: 'https://github.com/davelowqx/bloomburger',
-      duration: 'Jun 2021 - Present',
+      duration: 'Jun 2021 - Dec 2022',
     },
   ]
   return (

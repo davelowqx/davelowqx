@@ -29,14 +29,6 @@ export default function Experience() {
       description: `Designed/implemented an Event-Driven architecture with RabbitMQ. The message queue facilitated communication between microservices, such as scheduling with Apache Airflow and logging with ElasticSearch/Grafana.`,
       duration: 'May 2022 - Aug 2022',
     },
-    {
-      company: 'National University of Singapore',
-      href: 'https://www.linkedin.com/school/national-university-of-singapore/',
-      summary: 'Teaching Assistant',
-      description:
-        'CS1101S - Programming Methodology I, a functional programming module taught in JavaScript.',
-      duration: 'Aug 2021 - Dec 2021',
-    },
   ]
   return (
     <>

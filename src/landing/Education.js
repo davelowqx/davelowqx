@@ -3,9 +3,9 @@ import Bullet from '../components/Bullet'
 export default function Education() {
   const education = {
     school: 'National University of Singapore',
-    duration: 'Aug 2020 - May 2024',
+    duration: 'Aug 2020 - Dec 2024',
     degree:
-      'Computer Science (Focus on Parallel Computing)',
+      'Computer Science (Focus on Algorithms / Parallel Computing)',
     details: [
       {
         title: 'Achievements',
@@ -14,7 +14,7 @@ export default function Education() {
       {
         title: 'Extracurriculars',
         description:
-          'Media (Video), Basketball, Dance',
+          'Media, Basketball, Dance',
       },
     ],
   }

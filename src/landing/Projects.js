@@ -3,6 +3,14 @@ import React from 'react'
 export default function Projects() {
   const projects = [
     {
+      title: 'Epoll server',
+      url: '',
+      summary: 'C++',
+      description: 'Demo epoll server',
+      github: 'https://github.com/davelowqx/epoll-server',
+      duration: 'Dec 2022 - Dec 2022',
+    },
+    {
       title: 'Bloomburger',
       url: 'https://bloomburger.xyz',
       summary: 'Next.js, Bootstrap, Lightweight Charts, React Table',

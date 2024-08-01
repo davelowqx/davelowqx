@@ -4,7 +4,7 @@ export default function Projects() {
   const projects = [
     {
       title: 'Epoll server',
-      url: '',
+      url: 'https://github.com/davelowqx/epoll-server',
       summary: 'C++',
       description: 'Demo epoll server',
       github: 'https://github.com/davelowqx/epoll-server',

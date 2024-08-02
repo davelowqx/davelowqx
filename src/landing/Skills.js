@@ -5,11 +5,11 @@ export default function Skills() {
   const skills = [
     {
       title: 'Languages',
-      description: 'C++, Python, Go, SQL',
+      description: 'C++, Python, Go',
     },
     {
       title: 'Technologies',
-      description: 'Docker, Kafka, RabbitMQ, Kubernetes',
+      description: 'Kubernetes, Docker, Kafka, RabbitMQ',
     },
   ]
 

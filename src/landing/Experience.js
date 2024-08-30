@@ -5,7 +5,7 @@ export default function Experience() {
       company: 'TikTok',
       href: 'https://www.linkedin.com/company/bytedance/',
       summary: 'Software Engineer Intern',
-      description: `Working on backend systems in the cloud infra team, with focus on billing/quota console for internal cloud. Go/Kubernetes.`,
+      description: `Working on billing/quota microservice for internal cloud resources. Go/Kubernetes/Redis.`,
       duration: 'May 2024 - Present',
     },
     {
@@ -14,6 +14,13 @@ export default function Experience() {
       summary: 'Software Engineer Intern',
       description: `Worked in Remote Vehicle Assistance, adding latency-sensitive features for remote agents to monitor/intervene decisions of the Autonomous Vehicle. C++.`,
       duration: 'Sep 2023 - Feb 2024',
+    },
+    {
+      company: 'Aures Captial',
+      href: 'https://www.linkedin.com/company/aures-capital',
+      summary: 'Software Engineer Intern',
+      description: `Worked on a trade execution system for mid-frequency strategies on Binance. Python/Kafka `,
+      duration: 'Jun 2023 - Sep 2024',
     },
     {
       company: 'AlphaGrep',

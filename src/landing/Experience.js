@@ -3,6 +3,13 @@ export default function Experience() {
   const experiences = [
     {
       company: 'TikTok',
+      href: 'https://www.linkedin.com/company/tiktok/',
+      summary: 'Software Engineer',
+      description: `Backend for Global Ecommerce`,
+      duration: 'Jan 2025 - Present',
+    },
+    {
+      company: 'Bytedance',
       href: 'https://www.linkedin.com/company/bytedance/',
       summary: 'Software Engineer Intern',
       description: `Working on billing/quota microservice for internal cloud resources. Go/Kubernetes/SQL/Redis.`,
@@ -16,7 +23,7 @@ export default function Experience() {
       duration: 'Sep 2023 - Feb 2024',
     },
     {
-      company: 'Aures Captial',
+      company: 'Aures Capital',
       href: 'https://www.linkedin.com/company/aures-capital',
       summary: 'Software Engineer Intern',
       description: `Worked on trade execution/market data systems on Binance/OKX. Experience using SBE/FIX for latency-sensitive applications. C++/Python/Kafka `,

@@ -5,15 +5,8 @@ export default function Experience() {
       company: 'TikTok',
       href: 'https://www.linkedin.com/company/tiktok/',
       summary: 'Software Engineer',
-      description: `Backend for Global Ecommerce.`,
-      duration: 'Jan 2025 - Present',
-    },
-    {
-      company: 'Bytedance',
-      href: 'https://www.linkedin.com/company/bytedance/',
-      summary: 'Intern',
-      description: `Working on billing/quota microservice for internal cloud resources. Go + Kubernetes/SQL/Redis.`,
-      duration: 'May 2024 - Dec 2024',
+      description: `Backend for Global Ecommerce - Logistics. Go/Kubernetes/SQL`,
+      duration: 'May 2024 - Present',
     },
     {
       company: 'Motional',

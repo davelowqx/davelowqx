@@ -1,8 +1,9 @@
 import React from 'react'
 export default function Title() {
-  github = { title: 'github.com/davelowqx', href: 'https://github.com/davelowqx' }
+  linkedin = 'linkedin.com/in/davelowqx';
 
-  const [showEmail, setShowEmail] = React.useState(false)
+  const [showEmail, setShowEmail] = React.useState(false);
+  const [showNum, setShowNum] = React.useState(false);
 
   return (
     <>
@@ -12,17 +13,24 @@ export default function Title() {
           className={`${!showEmail && 'cursor-pointer bg-gray-100'}`}
           onClick={() => !showEmail && setShowEmail(true)}
         >
-          {showEmail ? 'davelowqx' + '@g' + 'mail.' + 'com' : 'email'}
+          {showEmail ? 'davelowqx' + '[at]g' + 'mail.' + 'com' : 'email'}
         </div>
-        <span key={i}>
-          &nbsp;&nbsp;•&nbsp;&nbsp;
+        &nbsp;&nbsp;•&nbsp;&nbsp;
+        <div
+          className={`${!showNum && 'cursor-pointer bg-gray-100'}`}
+          onClick={() => !showNum && setShowNum(true)}
+        >
+          {showNum ? '+' + '65' + '881[seven]958[four]' : 'phone'}
+        </div>
+        &nbsp;&nbsp;•&nbsp;&nbsp;
+        <span>
           <a
-            href={github.href}
+            href={`https://{linkedin}`}
             target="_blank"
             rel="noreferrer"
             className="hover:underline"
           >
-            {github.title}
+            {linkedin}
           </a>
         </span>
       </div>

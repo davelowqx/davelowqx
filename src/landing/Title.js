@@ -1,12 +1,7 @@
 import React from 'react'
 export default function Title() {
-  const links = [
-    { title: 'github.com/davelowqx', href: 'https://github.com/davelowqx' },
-    {
-      title: 'linkedin.com/in/davelowqx',
-      href: 'https://linkedin.com/in/davelowqx',
-    },
-  ]
+  github = { title: 'github.com/davelowqx', href: 'https://github.com/davelowqx' }
+
   const [showEmail, setShowEmail] = React.useState(false)
 
   return (
@@ -17,21 +12,19 @@ export default function Title() {
           className={`${!showEmail && 'cursor-pointer bg-gray-100'}`}
           onClick={() => !showEmail && setShowEmail(true)}
         >
-          {showEmail ? 'davelowqx[at]gmail' : 'email'}
+          {showEmail ? 'davelowqx' + '@g' + 'mail.' + 'com' : 'email'}
         </div>
-        {links.map(({ title, href }, i) => (
-          <span key={i}>
-            &nbsp;&nbsp;•&nbsp;&nbsp;
-            <a
-              href={href}
-              target="_blank"
-              rel="noreferrer"
-              className="hover:underline"
-            >
-              {title}
-            </a>
-          </span>
-        ))}
+        <span key={i}>
+          &nbsp;&nbsp;•&nbsp;&nbsp;
+          <a
+            href={github.href}
+            target="_blank"
+            rel="noreferrer"
+            className="hover:underline"
+          >
+            {github.title}
+          </a>
+        </span>
       </div>
     </>
   )

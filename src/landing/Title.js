@@ -1,6 +1,6 @@
 import React from 'react'
 export default function Title() {
-  linkedin = 'linkedin.com/in/davelowqx';
+  const linkedin = 'linkedin.com/in/davelowqx';
 
   const [showEmail, setShowEmail] = React.useState(false);
   const [showNum, setShowNum] = React.useState(false);

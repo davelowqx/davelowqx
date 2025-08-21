@@ -60,7 +60,7 @@ export default function Experience() {
               &nbsp;•&nbsp;
               <div className="italic">{experience.summary}</div>
               <div className="flex-grow" />
-              <div className="font-light hidden xs:block">
+              <div className="font-light italic hidden xs:block">
                 {experience.duration}
               </div>
             </div>

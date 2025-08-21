@@ -8,7 +8,7 @@ export default function Projects() {
       summary: 'C++',
       description: 'Demo epoll server',
       github: 'https://github.com/davelowqx/epoll-server',
-      duration: 'Dec 2022 - Dec 2022',
+      duration: '2022',
     },
     {
       title: 'Bloomburger',
@@ -16,7 +16,7 @@ export default function Projects() {
       summary: 'Next.js, Bootstrap, Lightweight Charts, React Table',
       description: 'Web version of the Bloomberg Terminal.',
       github: 'https://github.com/davelowqx/bloomburger',
-      duration: 'Jun 2021 - Dec 2022',
+      duration: '2022',
     },
   ]
   return (

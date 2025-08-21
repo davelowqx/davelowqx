@@ -1,6 +1,5 @@
 import React from 'react'
-import Bullet from '../components/Bullet'
-export default function Education() {
+export default function Summary() {
   const summary = "Obsessed with solving problems, from debugging complex software to restoring classic cars. Always seeking growth and meaningful challenges in pursuit of a life worth living.";
   return (
     <>

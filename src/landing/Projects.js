@@ -46,7 +46,7 @@ export default function Projects() {
                 </>
               )}
               <div className="flex-grow" />
-              <div className="font-light hidden xs:block">
+              <div className="font-light italic hidden xs:block">
                 {project.duration}
               </div>
             </div>

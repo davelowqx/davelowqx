@@ -15,7 +15,7 @@ export default function Education() {
         &nbsp;•&nbsp;
         <div className="italic">{education.title2}</div>
         <div className="flex-grow" />
-        <div className="font-light hidden xs:block">{education.duration}</div>
+        <div className="font-light italic hidden xs:block">{education.duration}</div>
       </div>
     </>
   )

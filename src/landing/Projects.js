@@ -5,7 +5,6 @@ export default function Projects() {
     {
       title: 'Epoll server',
       url: 'https://github.com/davelowqx/epoll-server',
-      summary: 'C++',
       description: 'Demo epoll server',
       github: 'https://github.com/davelowqx/epoll-server',
       duration: '2022',
@@ -13,7 +12,6 @@ export default function Projects() {
     {
       title: 'Bloomburger',
       url: 'https://bloomburger.xyz',
-      summary: 'Next.js, Bootstrap, Lightweight Charts, React Table',
       description: 'Web version of the Bloomberg Terminal.',
       github: 'https://github.com/davelowqx/bloomburger',
       duration: '2022',
@@ -27,30 +25,25 @@ export default function Projects() {
         {projects.map((project, i) => (
           <div key={i} className="mb-2.5">
             <div className="flex items-center">
-              <div className="font-semibold">{project.title}</div>
-              {project.url && project.github && (
-                <>
-                  &nbsp;|&nbsp;
-                  <a
-                    href={project.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="font-light underline"
-                  >
-                    {project.url}
-                  </a>
-                  &nbsp;&nbsp;
-                  <a href={project.github}>
-                    <img src="/github.png" className="w-4" />
-                  </a>
-                </>
-              )}
-              <div className="flex-grow" />
-              <div className="font-light italic hidden xs:block">
-                {project.duration}
-              </div>
+            <div className="font-semibold">{project.title}</div>
+            &nbsp;|&nbsp;
+            <a
+              href={project.url}
+              target="_blank"
+              rel="noreferrer"
+              className="font-light underline"
+            >
+              {project.url}
+            </a>
+            &nbsp;&nbsp;
+            <a href={project.github}>
+              <img src="/github.png" className="w-4" />
+            </a>
+            <div className="flex-grow" />
+            <div className="font-light italic hidden xs:block">
+              {project.duration}
             </div>
-            <p>{project.summary}</p>
+            </div>
             <p className="font-light">{project.description}</p>
           </div>
         ))}

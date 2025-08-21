@@ -58,7 +58,7 @@ export default function Experience() {
                 </a>
               </div>
               &nbsp;•&nbsp;
-              <div>{experience.summary}</div>
+              <div className="italic">{experience.summary}</div>
               <div className="flex-grow" />
               <div className="font-light hidden xs:block">
                 {experience.duration}

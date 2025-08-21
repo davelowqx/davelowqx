@@ -20,7 +20,7 @@ export default function Title() {
           className={`${!showNum && 'cursor-pointer bg-gray-100'}`}
           onClick={() => !showNum && setShowNum(true)}
         >
-          {showNum ? '+' + '65' + '881[seven]958[four]' : 'phone'}
+          {showNum ? '+' + '65 ' + '881' + (5+2) + '958' + (2+2) : 'phone'}
         </div>
         &nbsp;&nbsp;•&nbsp;&nbsp;
         <span>

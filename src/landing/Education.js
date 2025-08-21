@@ -5,7 +5,6 @@ export default function Education() {
     title1: 'Computer Science',
     title2: 'National University of Singapore',
     duration: 'Graduated Dec 2024',
-    details: 'NUS Merit Scholar',
   }
   return (
     <>
@@ -18,7 +17,6 @@ export default function Education() {
         <div className="flex-grow" />
         <div className="font-light hidden xs:block">{education.duration}</div>
       </div>
-      <p>{education.details}</p>
     </>
   )
 }

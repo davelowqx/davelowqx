@@ -1,10 +1,10 @@
 import React from 'react'
-import Bullet from '../components/Bullet'
+
 export default function Education() {
   const education = {
     title1: 'Computer Science',
     title2: 'National University of Singapore',
-    duration: 'Graduated Dec 2024',
+    duration: 'Graduated 2024',
   }
   return (
     <>

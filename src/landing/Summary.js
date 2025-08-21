@@ -5,7 +5,7 @@ export default function Summary() {
     <>
       <h2 className="font-bold text-lg">SUMMARY</h2>
       <hr className="mb-2.5" />
-      <h3 className="font-light">{summary}</h3>
+      <h3>{summary}</h3>
     </>
   )
 }

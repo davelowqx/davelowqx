@@ -6,14 +6,14 @@ export default function Experience() {
       href: 'https://www.linkedin.com/company/alpha-grep/',
       summary: 'Quantitative Developer',
       description: `-`,
-      duration: 'June 2025 - Present',
+      duration: 'Jun 2025 - Present',
     },
     {
       company: 'TikTok',
       href: 'https://www.linkedin.com/company/tiktok/',
       summary: 'Software Engineer',
-      description: `Backend for Cloud Infrastructure and subsequently Global Ecommerce. Go/Kubernetes/SQL`,
-      duration: 'May 2024 - May 2025',
+      description: `Backend for Cloud Infrastructure and subsequently Global Ecommerce. Go/Kafka/SQL`,
+      duration: 'May 2024 - Jun 2025',
     },
     {
       company: 'Motional',
@@ -40,7 +40,7 @@ export default function Experience() {
       company: 'Quantedge',
       href: 'https://www.linkedin.com/company/quantedge/',
       summary: 'Internship',
-      description: `Worked on a project to revamp legacy infrastructure with an Event-Driven architecture, using RabbitMQ`,
+      description: `Worked on a project to revamp legacy infrastructure with an Event-Driven architecture. Python/RabbitMQ`,
       duration: 'May 2022 - Aug 2022',
     },
   ]

@@ -2,7 +2,7 @@ import React from 'react'
 export default function Experience() {
   const experiences = [
     {
-      company: 'Alphagrep',
+      company: 'AlphaGrep',
       href: 'https://www.linkedin.com/company/alpha-grep/',
       summary: 'Quantitative Developer',
       description: `-`,

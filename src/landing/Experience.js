@@ -5,7 +5,7 @@ export default function Experience() {
       company: 'AlphaGrep',
       href: 'https://www.linkedin.com/company/alpha-grep/',
       summary: 'Quantitative Developer',
-      description: `-`,
+      description: `Worked on data ingestion, simulation backend and cloud infrastructure. Cython/Redis`,
       duration: 'Jun 2025 - Present',
     },
     {
@@ -19,14 +19,14 @@ export default function Experience() {
       company: 'Motional',
       href: 'https://www.linkedin.com/company/motionaldrive/',
       summary: 'Internship',
-      description: `Worked on latency-sensitive features for intefacing with Autonomous Vehicles. C++.`,
+      description: `Worked on latency-sensitive features for intefacing with Autonomous Vehicles. C++`,
       duration: 'Sep 2023 - Feb 2024',
     },
     {
       company: 'Aures Capital',
       href: 'https://www.linkedin.com/company/aures-capital',
       summary: 'Internship',
-      description: `Built from scratch trade execution and market data systems on Binance/OKX. Python/Kafka `,
+      description: `Built from scratch trade execution and market data systems on Binance/OKX. Python/Kafka`,
       duration: 'Jun 2023 - Sep 2024',
     },
     {

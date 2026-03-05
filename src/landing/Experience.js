@@ -5,7 +5,7 @@ export default function Experience() {
       company: 'AlphaGrep',
       href: 'https://www.linkedin.com/company/alpha-grep/',
       summary: 'Quantitative Developer',
-      description: `Worked on data ingestion, simulation backend and cloud infrastructure. Cython/Redis`,
+      description: `In a MFT crypto trading pod, working on simulation backend and supporting cloud infrastructure. Notably, backtest jobs were routed 1:1 to single GCP instance for maximal parallel execution. Cython/Redis`,
       duration: 'Jun 2025 - Present',
     },
     {

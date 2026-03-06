@@ -6,9 +6,9 @@ export default function Experience() {
       href: 'https://www.linkedin.com/company/alpha-grep/',
       summary: 'Quantitative Developer',
       description: `
-        Worked on simulation backend and cloud infrastructure in a early-stage MFT pod.
-        Significantly improved backtest parallelisation by routing jobs to standalone dynamically-sized instances instead of a generic instance group.
-        Reduced cloud computing costs by creating a microservice to monitor compute instances, with the ability to resize/start/stop them.
+        Worked on simulation backend and cloud infrastructure in a early-stage MFT pod.\n
+        Significantly improved backtest parallelisation by routing jobs to standalone dynamically-sized instances instead of a generic instance group.\n
+        Reduced cloud computing costs by creating a microservice to monitor compute instances, with the ability to resize/start/stop them.\n
         Extended backtesting pipeline to support custom multi-instrument books and hedging with index futures.
         [Python]
       `,
@@ -19,8 +19,8 @@ export default function Experience() {
       href: 'https://www.linkedin.com/company/tiktok/',
       summary: 'Software Engineer',
       description: `
-        Backend engineer in TikTok Shop Logistics team.
-        Improved inter-service reliability and decoupled architecture by deprecating RPC in favor of Kafka.
+        Backend engineer in TikTok Shop Logistics team.\n
+        Improved inter-service reliability and decoupled architecture by deprecating RPC in favor of Kafka.\n
         Architected multi-region support, enabling smoother platform expansion across new markets.
         [Go]
       `,

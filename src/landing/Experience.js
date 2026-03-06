@@ -5,53 +5,53 @@ export default function Experience() {
       company: 'AlphaGrep',
       href: 'https://www.linkedin.com/company/alpha-grep/',
       summary: 'Quantitative Developer',
-      description: `
-        Worked on simulation backend and cloud infrastructure in a early-stage MFT pod.\n
-        Significantly improved backtest parallelisation by routing jobs to standalone dynamically-sized instances instead of a generic instance group.\n
-        Reduced cloud computing costs by creating a microservice to monitor compute instances, with the ability to resize/start/stop them.\n
-        Extended backtesting pipeline to support custom multi-instrument books and hedging with index futures.
-        [Python]
-      `,
+      description: [
+        "Worked on simulation backend and cloud infrastructure in a early-stage MFT pod.",
+        "- Significantly improved backtest parallelisation by routing jobs to standalone dynamically-sized instances instead of a generic instance group.",
+        "- Reduced cloud computing costs by creating a microservice to monitor compute instances, with the ability to resize/start/stop them.",
+        "- Extended backtesting pipeline to support custom multi-instrument books and hedging with index futures.",
+        "[Python]"
+      ],
       duration: 'Jun 2025 - Present',
     },
     {
       company: 'TikTok',
       href: 'https://www.linkedin.com/company/tiktok/',
       summary: 'Software Engineer',
-      description: `
-        Backend engineer in TikTok Shop Logistics team.\n
-        Improved inter-service reliability and decoupled architecture by deprecating RPC in favor of Kafka.\n
-        Architected multi-region support, enabling smoother platform expansion across new markets.
-        [Go]
-      `,
+      description: [
+        "Backend engineer in TikTok Shop Logistics team.",
+        "- Improved inter-service reliability and decoupled architecture by deprecating RPC in favor of Kafka.",
+        "- Architected multi-region support, aiding in smoother expansion across new markets.",
+        "[Go]"
+      ],
       duration: 'May 2024 - Jun 2025',
     },
     {
       company: 'Motional',
       href: 'https://www.linkedin.com/company/motionaldrive/',
       summary: 'Internship',
-      description: `Worked on latency-sensitive features for intefacing with Autonomous Vehicles. [C++]`,
+      description: [`Worked on latency-sensitive features for intefacing with Autonomous Vehicles. [C++]`],
       duration: 'Sep 2023 - Feb 2024',
     },
     {
       company: 'Aures Capital',
       href: 'https://www.linkedin.com/company/aures-capital',
       summary: 'Internship',
-      description: `Built from scratch trade execution and market data systems on Binance/OKX. [Python]`,
+      description: [`Built from scratch trade execution and market data systems on Binance/OKX. [Python]`],
       duration: 'Jun 2023 - Sep 2024',
     },
     {
       company: 'AlphaGrep',
       href: 'https://www.linkedin.com/company/alpha-grep/',
       summary: 'Internship',
-      description: `Early efforts building a C++ matching engine/aggregator with a multi-threaded epoll server. [C++]`,
+      description: [`Early efforts building a C++ matching engine/aggregator with a multi-threaded epoll server. [C++]`],
       duration: 'Sep 2022 - Dec 2022',
     },
     {
       company: 'Quantedge',
       href: 'https://www.linkedin.com/company/quantedge/',
       summary: 'Internship',
-      description: `Worked on a project to revamp legacy infrastructure with an Event-Driven architecture. [Python]`,
+      description: [`Worked on a project to revamp legacy infrastructure with an Event-Driven architecture. [Python]`],
       duration: 'May 2022 - Aug 2022',
     },
   ]
@@ -75,7 +75,11 @@ export default function Experience() {
                 {experience.duration}
               </div>
             </div>
-            <p>{experience.description}</p>
+            <p>
+              {experience.description.map((line, i) => (
+                <>{line}<br/></>
+              ))}
+            </p>
           </div>
         ))}
       </ul>

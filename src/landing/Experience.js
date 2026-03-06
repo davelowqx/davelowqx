@@ -7,8 +7,8 @@ export default function Experience() {
       summary: 'Quantitative Developer',
       description: [
         "Worked on simulation backend and cloud infrastructure in a early-stage MFT pod.",
-        "- Significantly improved backtest parallelisation by routing jobs to standalone dynamically-sized instances instead of a generic instance group.",
-        "- Reduced cloud computing costs by creating a microservice to monitor compute instances, with the ability to resize/start/stop them.",
+        "- Parallelised backtesting flow by routing jobs to standalone dynamically-sized instances instead of a generic instance group.",
+        "- Reduced cloud computing costs by creating a microservice to monitor CPU utilisation and automatically resize or stop idle instances.",
         "- Extended backtesting pipeline to support custom multi-instrument books and hedging with index futures.",
         "[Python]"
       ],

@@ -21,7 +21,7 @@ export default function Experience() {
       href: 'https://www.linkedin.com/company/tiktok/',
       summary: 'Software Engineer',
       description: [
-        "Backend engineer in TikTok Shop Logistics team, building services facilitating First-Mile delivery between sellers and hubs.",
+        "Worked on backend systems facilitating First-Mile delivery between TikTok Shop sellers and delivery hubs.",
         "- Expanded platform into new geographical markets by migrating existing code and infrastructure.",
         "- Responded to and resolved production incidents occuring during EU hours",
         "- Improved inter-service reliability and decoupled architecture by deprecating RPC in favor of Kafka.",

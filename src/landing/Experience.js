@@ -6,22 +6,26 @@ export default function Experience() {
       href: 'https://www.linkedin.com/company/alpha-grep/',
       summary: 'Quantitative Developer',
       description: [
-        "Worked on simulation backend and cloud infrastructure in a early-stage MFT pod.",
-        "- Parallelised backtesting flow by routing jobs to standalone dynamically-sized instances instead of a generic instance group.",
-        "- Reduced cloud computing costs by creating a microservice to monitor CPU utilisation and automatically resize or stop idle instances.",
-        "- Extended backtesting pipeline to support custom multi-instrument books and hedging with index futures.",
+        "Worked on simulation backend and cloud infrastructure in an early-stage MFT pod.",
+        "- Deployed and managed various services on GCP including compute engine, cloud storage, spanner, monitoring/logging, IAM",
+        "- Parallelised backtest workflows by routing jobs to individual, dynamically-sized instances instead of a managed instance group.",
+        "- Reduced cloud computing costs ~60% with a microservice monitoring compute instances and automatically resizes/start/stop them as required.",
+        "- Extended backtesting pipeline to support features such as custom multi-instrument books, trading restrictions and hedging with index futures.",
+        "- Worked extensively with polars for manipulating of dataframes to express desired business logic",
         "[Python]"
       ],
-      duration: 'Jun 2025 - Present',
+      duration: 'Jun 2025 - Feb 2025',
     },
     {
       company: 'TikTok',
       href: 'https://www.linkedin.com/company/tiktok/',
       summary: 'Software Engineer',
       description: [
-        "Backend engineer in TikTok Shop Logistics team.",
+        "Backend engineer in TikTok Shop Logistics team, building services facilitating First-Mile delivery between sellers and hubs.",
+        "- Expanded platform into new geographical markets by migrating existing code and infrastructure.",
+        "- Responded to and resolved production incidents occuring during EU hours",
         "- Improved inter-service reliability and decoupled architecture by deprecating RPC in favor of Kafka.",
-        "- Architected multi-region support, aiding in smoother expansion across new markets.",
+        "- Enhanced user experience by migrating to async patterns with the Frontend team",
         "[Go]"
       ],
       duration: 'May 2024 - Jun 2025',

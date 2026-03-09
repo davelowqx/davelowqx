@@ -1,6 +1,6 @@
 import React from 'react'
 export default function Summary() {
-  const summary = "I'm deeply obsessed with solving problems, particularly in the intersection of financial markets and low-latency systems. Constantly in pursuit of new challenges and dedicated to lifelong learning.";
+  const summary = "Quantitative Developer passionate about solving problems in the intersection of financial markets and low latency systems. Comfortable with Python/C++.";
   return (
     <>
       <h2 className="font-bold text-lg">SUMMARY</h2>

@@ -12,6 +12,7 @@ export default function Experience() {
         "- Parallelised backtest workflows by routing jobs to individual, dynamically-sized instances instead of a managed instance group.",
         "- Reduced cloud computing costs ~60% with a microservice monitoring compute instances and automatically resizes/start/stop them as required.",
         "- Extended backtesting pipeline with features such as custom multi-instrument books, trading restrictions and hedging with index futures.",
+        "- Designed Terraform configurations to orchestrate complex, dependency-heavy microservice deployments, ensuring repeatability."
         "[Python]"
       ],
       duration: 'Jun 2025 - Jan 2026',

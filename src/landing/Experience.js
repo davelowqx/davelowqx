@@ -14,7 +14,7 @@ export default function Experience() {
         "- Extended backtesting pipeline with features such as custom multi-instrument books, trading restrictions and hedging with index futures.",
         "[Python]"
       ],
-      duration: 'Jun 2025 - Jan 2025',
+      duration: 'Jun 2025 - Jan 2026',
     },
     {
       company: 'TikTok',

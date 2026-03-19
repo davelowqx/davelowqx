@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Education() {
   const education = {
-    title1: `Bachelor's in Computer Science`,
+    title1: `BComp, Computer Science`,
     title2: 'National University of Singapore',
     duration: 'Graduated 2024',
   }

@@ -14,11 +14,11 @@ const IndexPage = () => {
           <br />
           <Summary />
           <br />
+          <Skills />
+          <br />
           <Experience />
           <br />
           <Education />
-          <br />
-          <Skills />
         </div>
       </div>
     </>

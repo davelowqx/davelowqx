@@ -8,11 +8,11 @@ export default function Experience() {
       description: [
         "Worked on simulation backend and cloud infrastructure in an early-stage MFT pod.",
         "- Deployed and managed various services on GCP including compute engine, cloud storage, spanner, monitoring/logging, IAM",
-        "- Worked extensively with polars for manipulating of dataframes to express desired business logic",
         "- Parallelised backtest workflows by routing jobs to individual, dynamically-sized instances instead of a managed instance group.",
-        "- Reduced cloud computing costs ~60% with a microservice monitoring compute instances and automatically resizes/start/stop them as required.",
-        "- Extended backtesting pipeline with features such as custom multi-instrument books, trading restrictions and hedging with index futures.",
+        "- Reduced cloud computing costs ~60% with a microservice that monitors compute instances and automatically resizes/start/stop them.",
         "- Designed Terraform configurations to orchestrate complex, dependency-heavy microservice deployments, ensuring repeatability.",
+        "- Extended backtesting pipeline with features such as custom multi-instrument books, trading restrictions and hedging with index futures.",
+        "- Worked extensively with polars for manipulating of dataframes to express desired business logic",
         "[Python]"
       ],
       duration: 'Jun 2025 - Jan 2026',
@@ -35,7 +35,7 @@ export default function Experience() {
       company: 'Motional',
       href: 'https://www.linkedin.com/company/motionaldrive/',
       summary: 'Internship',
-      description: [`Worked on latency-sensitive features for intefacing with Autonomous Vehicles. [C++]`],
+      description: [`Worked on latency-sensitive features for interfacing with Autonomous Vehicles. [C++]`],
       duration: 'Sep 2023 - Feb 2024',
     },
     {

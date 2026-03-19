@@ -6,8 +6,8 @@ export default function Summary() {
   return (
     <>
     <h3>{summary}</h3>
-    <h3>Languages: {languages}</h3>
-    <h3>Technologies: {technologies}</h3>
+    <h3><span className="font-semibold">Languages:</span> {languages}</h3>
+    <h3><span className="font-semibold">Technologies:</span> {technologies}</h3>
     </>
   )
 }

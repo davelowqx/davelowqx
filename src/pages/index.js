@@ -1,5 +1,5 @@
 import React from 'react'
-import { Title, Summary, Experience, Education, Projects, Skills } from '../landing'
+import { Title, Summary, Experience, Education } from '../landing'
 import Seo from '../components/Seo'
 import '../styles/global.css'
 
@@ -13,8 +13,6 @@ const IndexPage = () => {
           <Title />
           <br />
           <Summary />
-          <br />
-          <Skills />
           <br />
           <Experience />
           <br />

@@ -15,7 +15,7 @@ export default function Experience() {
         "- Worked extensively with polars for manipulating of dataframes to express desired business logic",
         "[Python]"
       ],
-      duration: 'Jun 2025 - Jan 2026',
+      duration: 'Jun 2025 - Mar 2026',
     },
     {
       company: 'TikTok',

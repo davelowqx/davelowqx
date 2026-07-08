@@ -5,7 +5,7 @@ export default function Projects() {
     {
       title: 'Simulated Exchange',
       url: 'https://sim.davelowqx.com',
-      description: 'Candlestick chart streamed from a simulated matching engine with 2 Market Makers and 1 Mean Reverting Trader.',
+      description: 'Simulated exchange with a matching engine, market makers, mean-reverting agents, and a WebSocket market data feed visualised in the browser.',
       github: 'https://github.com/davelowqx/sim-server',
     },
   ]

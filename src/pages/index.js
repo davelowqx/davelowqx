@@ -1,5 +1,5 @@
 import React from 'react'
-import { Title, Summary, Experience, Education } from '../landing'
+import { Title, Summary, Experience, Education, Projects } from '../landing'
 import Seo from '../components/Seo'
 import '../styles/global.css'
 

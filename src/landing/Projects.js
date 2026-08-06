@@ -6,7 +6,7 @@ export default function Projects() {
       title: 'Simulated Exchange',
       url: 'https://sim.davelowqx.com',
       description: 'Simulated exchange with a matching engine, market makers, mean-reverting agents, and a WebSocket market data feed visualised in the browser.',
-      github: 'https://github.com/davelowqx/sim-server',
+      github: 'https://github.com/davelowqx/sim',
     },
   ]
   return (

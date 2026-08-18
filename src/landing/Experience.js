@@ -6,12 +6,12 @@ export default function Experience() {
       href: 'https://www.linkedin.com/company/alpha-grep/',
       summary: 'Quantitative Developer',
       description: [
-        "Built backtesting system and managed cloud infrastructure in an early-stage MFT pod",
+        "Developed backtest software and managed cloud infrastructure in an early-stage MFT pod",
         "- Parallelised backtests by provisioning dedicated VMs for each job, tightening researcher feedback loop from hours to minutes",
         "- Extended backtesting to support custom instrument universes, trading restrictions and hedging with index futures",
         "- Reduced cloud costs ~60% with a microservice that resizes/starts/stops VMs based on utilization",
-        "- Built an internal frontend to simplify managing and monitoring of VMs for the team.",
-        "- Created Terraform configurations for dependency-heavy deployments",
+        "- Built an internal frontend to simplify managing and monitoring of VMs for the researchers.",
+        "- Created Terraform configurations for multi-dependency deployments",
         "[Python, Cython]"
       ],
       duration: 'Jun 2025 - Mar 2026',
@@ -55,7 +55,7 @@ export default function Experience() {
       company: 'Quantedge',
       href: 'https://www.linkedin.com/company/quantedge/',
       summary: 'Internship',
-      description: [`Developed a proof-of-concept Event-Driven architecture utilising Apache Airflow and RabbitMQ [Python]`],
+      description: [`Proposed and created proof-of-concept Event-Driven architecture with RabbitMQ and Apache Airflow [Python]`],
       duration: 'May 2022 - Aug 2022',
     },
   ]

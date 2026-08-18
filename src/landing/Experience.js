@@ -6,14 +6,14 @@ export default function Experience() {
       href: 'https://www.linkedin.com/company/alpha-grep/',
       summary: 'Quantitative Developer',
       description: [
-        "Worked on simulation backend and cloud infrastructure in an early-stage MFT pod",
-        "- Deployed and managed various services on GCP including compute engine, cloud storage, spanner, monitoring/logging, IAM",
-        "- Parallelised backtest workflows by routing jobs to individual, dynamically-sized instances instead of a managed instance group",
-        "- Reduced cloud computing costs ~60% with a microservice that monitors compute instances and automatically resizes/start/stop them",
-        "- Designed Terraform configurations to orchestrate complex, dependency-heavy microservice deployments, ensuring repeatability",
-        "- Extended backtesting pipeline with features such as custom multi-instrument books, trading restrictions and hedging with index futures",
-        "- Worked extensively with polars for manipulating of dataframes to express desired business logic",
-        "[Python]"
+        "Built backtesting system and managed cloud infrastructure in an early-stage MFT pod",
+        "- Parallelised backtests by provisioning dedicated VMs for each job, tightening researcher feedback loop from hours to minutes",
+        "- Extended backtesting pipeline to support custom instrument universes, trading restrictions and hedging with index futures",
+        "- Reduced cloud costs ~60% with a microservice that resizes/starts/stops VMs based on utilization",
+        "- Created Terraform configurations for dependency-heavy deployments, ensuring repeatable infrastructure provisioning",
+        "- Processed and transformed timeseries data using Polars for backtesting workflows",
+        "- Built an internal frontend to simplify managing and monitoring of VMs for the team.",
+        "[Python, Cython]"
       ],
       duration: 'Jun 2025 - Mar 2026',
     },
@@ -25,7 +25,7 @@ export default function Experience() {
         "Worked on backend systems facilitating First-Mile delivery between TikTok Shop sellers and delivery hubs",
         "- Expanded platform into new geographical markets by migrating existing code and infrastructure",
         "- Responded to and resolved production incidents occuring during EU hours",
-        "- Improved inter-service reliability and decoupled architecture by deprecating RPC in favor of Kafka",
+        "- Improved inter-service reliability and decoupling by deprecating RPC in favor of Kafka",
         "- Enhanced user experience by migrating to async patterns with the Frontend team",
         "[Go]"
       ],
@@ -56,7 +56,7 @@ export default function Experience() {
       company: 'Quantedge',
       href: 'https://www.linkedin.com/company/quantedge/',
       summary: 'Internship',
-      description: [`Worked on a project to revamp legacy infrastructure with an Event-Driven architecture [Python]`],
+      description: [`Developed a proof-of-concept Event-Driven architecture utilising Apache Airflow and RabbitMQ [Python]`],
       duration: 'May 2022 - Aug 2022',
     },
   ]

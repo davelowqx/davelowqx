@@ -19,7 +19,7 @@ export default function Experience() {
     {
       company: 'TikTok',
       href: 'https://www.linkedin.com/company/tiktok/',
-      summary: 'Software Engineer',
+      summary: 'Backend Engineer',
       description: [
         "Built and maintained backend systems for TikTok Shop's logistics pipeline between sellers and delivery hubs",
         "- Supported new market launches by implementing region-specific business logic and multi-region deployments",

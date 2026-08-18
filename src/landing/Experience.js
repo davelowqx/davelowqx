@@ -8,11 +8,10 @@ export default function Experience() {
       description: [
         "Built backtesting system and managed cloud infrastructure in an early-stage MFT pod",
         "- Parallelised backtests by provisioning dedicated VMs for each job, tightening researcher feedback loop from hours to minutes",
-        "- Extended backtesting pipeline to support custom instrument universes, trading restrictions and hedging with index futures",
+        "- Extended backtesting to support custom instrument universes, trading restrictions and hedging with index futures",
         "- Reduced cloud costs ~60% with a microservice that resizes/starts/stops VMs based on utilization",
-        "- Created Terraform configurations for dependency-heavy deployments, ensuring repeatable infrastructure provisioning",
-        "- Processed and transformed timeseries data using Polars for backtesting workflows",
         "- Built an internal frontend to simplify managing and monitoring of VMs for the team.",
+        "- Created Terraform configurations for dependency-heavy deployments",
         "[Python, Cython]"
       ],
       duration: 'Jun 2025 - Mar 2026',
@@ -22,11 +21,11 @@ export default function Experience() {
       href: 'https://www.linkedin.com/company/tiktok/',
       summary: 'Software Engineer',
       description: [
-        "Worked on backend systems facilitating First-Mile delivery between TikTok Shop sellers and delivery hubs",
-        "- Expanded platform into new geographical markets by migrating existing code and infrastructure",
-        "- Responded to and resolved production incidents occuring during EU hours",
-        "- Improved inter-service reliability and decoupling by deprecating RPC in favor of Kafka",
-        "- Enhanced user experience by migrating to async patterns with the Frontend team",
+        "Built and maintained backend systems for TikTok Shop's logistics pipeline between sellers and delivery hubs",
+        "- Supported new market launches by implementing region-specific business logic and multi-region deployments",
+        "- Responded to and resolved production incidents during EU hours",
+        "- Improved service decoupling by deprecating RPC in favor of Kafka",
+        "- Reduced API response times by introducing async patterns in collaboration with the frontend team",
         "[Go]"
       ],
       duration: 'May 2024 - Jun 2025',

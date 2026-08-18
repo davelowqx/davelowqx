@@ -55,7 +55,7 @@ export default function Experience() {
       company: 'Quantedge',
       href: 'https://www.linkedin.com/company/quantedge/',
       summary: 'Internship',
-      description: [`Proposed and created proof-of-concept Event-Driven architecture with RabbitMQ and Apache Airflow [Python]`],
+      description: [`Developed proof-of-concept Event-Driven architecture with RabbitMQ and Apache Airflow [Python]`],
       duration: 'May 2022 - Aug 2022',
     },
   ]

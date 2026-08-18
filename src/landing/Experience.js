@@ -22,7 +22,7 @@ export default function Experience() {
       summary: 'Backend Engineer',
       description: [
         "Built and maintained backend systems for TikTok Shop's logistics pipeline between sellers and delivery hubs",
-        "- Supported new market launches by implementing region-specific business logic and multi-region deployments",
+        "- Supported new market launches by implementing region-specific features and multi-region deployments",
         "- Responded to and resolved production incidents during EU hours",
         "- Improved service decoupling by deprecating RPC in favor of Kafka",
         "- Reduced API response times by introducing async patterns in collaboration with the frontend team",

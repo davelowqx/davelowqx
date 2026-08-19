@@ -10,7 +10,7 @@ export default function Experience() {
         "- Parallelised backtests by provisioning dedicated VMs for each job, tightening researcher feedback loop from hours to minutes",
         "- Extended backtesting to support custom instrument universes, trading restrictions and hedging with index futures",
         "- Reduced cloud costs ~60% with a microservice that resizes/starts/stops VMs based on utilization",
-        "- Built an internal frontend to simplify managing and monitoring of VMs for the researchers.",
+        "- Built an internal frontend to simplify managing and monitoring of VMs for the researchers",
         "- Created Terraform configurations for multi-dependency deployments",
         "[Python, Cython]"
       ],

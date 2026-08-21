@@ -6,7 +6,8 @@ export default function Experience() {
       href: 'https://www.linkedin.com/company/alpha-grep/',
       summary: 'Quantitative Developer',
       description: [
-        "Developed backtest software and managed cloud infrastructure in an early-stage MFT pod",
+        "Developed backtest software and managed cloud infrastructure for an early-stage MFT pod",
+        "- Owned in-house backtest platform that allowed researchers to develop, backtest and iterate on signals at scale",
         "- Parallelised backtests by provisioning dedicated VMs for each job, tightening researcher feedback loop from hours to minutes",
         "- Extended backtesting to support custom instrument universes, trading restrictions and hedging with index futures",
         "- Reduced cloud costs ~60% with a microservice that resizes/starts/stops VMs based on utilization",

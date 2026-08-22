@@ -4,8 +4,8 @@ export default function Projects() {
   const projects = [
     {
       title: 'Simulated Exchange',
-      url: 'http://sim.davelowqx.com',
-      description: 'Simulated exchange with a matching engine, market makers/traders, and a WebSocket market data feed visualised in the browser.',
+      url: 'https://sim.davelowqx.com',
+      description: 'Simulated exchange with a matching engine, market makers, traders, and a WebSocket market data feed visualised in the browser.',
       github: 'https://github.com/davelowqx/sim',
     },
   ]

@@ -6,12 +6,12 @@ export default function Experience() {
       href: 'https://www.linkedin.com/company/alpha-grep/',
       summary: 'Quantitative Developer',
       description: [
-        "Developed backtest software and managed cloud infrastructure for an early-stage MFT pod",
+        "Developed research infrastructure for an early-stage MFT pod",
         "- Owned in-house backtest platform that allowed researchers to develop, backtest and iterate on signals at scale",
         "- Parallelised backtests by provisioning dedicated VMs for each job, tightening researcher feedback loop from hours to minutes",
-        "- Extended backtesting to support custom instrument universes, trading restrictions and hedging with index futures",
-        "- Reduced cloud costs ~60% with a microservice that resizes/starts/stops VMs based on utilization",
-        "- Built an internal frontend to simplify managing and monitoring of VMs for the researchers",
+        "- Extended platform to support custom trading universes, trading restrictions and index hedging.",
+        "- Reduced cloud costs ~60% with microservice that restarts preempted VMs and monitors CPU/Memory utilization",
+        "- Built frontend to simplify managing and monitoring of VMs for researchers",
         "- Created Terraform configurations for multi-dependency deployments",
         "[Python, Cython]"
       ],
@@ -22,11 +22,11 @@ export default function Experience() {
       href: 'https://www.linkedin.com/company/tiktok/',
       summary: 'Backend Engineer',
       description: [
-        "Built and maintained backend systems for TikTok Shop's logistics pipeline between sellers and delivery hubs",
+        "Built and maintained backend systems for TikTok Shop's logistics between sellers and delivery hubs",
         "- Supported new market launches by implementing region-specific features and multi-region deployments",
-        "- Responded to and resolved production incidents during EU hours",
         "- Improved service decoupling by deprecating RPC in favor of Kafka",
         "- Reduced API response times by introducing async patterns in collaboration with the frontend team",
+        "- Responded to and resolved production incidents during EU hours",
         "[Go]"
       ],
       duration: 'May 2024 - Jun 2025',

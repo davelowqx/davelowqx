@@ -13,7 +13,7 @@ export default function Experience() {
         "- Reduced cloud costs ~60% with microservice that restarts preempted VMs and monitors CPU/Memory utilization",
         "- Built frontend to simplify managing and monitoring of VMs for researchers",
         "- Created Terraform configurations for multi-dependency deployments",
-        "[Python, Cython]"
+        "[Python, Polars, Redis]"
       ],
       duration: 'Jun 2025 - Mar 2026',
     },
@@ -42,7 +42,7 @@ export default function Experience() {
       company: 'Aures Capital',
       href: 'https://www.linkedin.com/company/aures-capital',
       summary: 'Internship',
-      description: [`Built from scratch trade execution and market data systems on Binance/OKX [Python]`],
+      description: [`Built from scratch trade execution and market data systems on Binance/OKX [Python, Kafka]`],
       duration: 'Jun 2023 - Sep 2024',
     },
     {

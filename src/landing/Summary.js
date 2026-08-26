@@ -1,6 +1,6 @@
 import React from 'react'
 export default function Summary() {
-  const summary = "Passionate about solving problems in the intersection of financial markets and low latency systems.";
+  const summary = "Drawn to challenging problems with high ownership and outsized impact.";
   const languages = "Python, C++, Go";
   const technologies = "Redis, Kafka, Docker, Kubernetes, Terraform, Elasticsearch, Polars";
   return (

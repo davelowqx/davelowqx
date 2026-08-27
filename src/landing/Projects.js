@@ -25,22 +25,26 @@ export default function Projects() {
               {
                 project.url &&
                 (
+                  <>
                   &nbsp;|&nbsp;
                   <a href={project.url}
                     target="_blank"
                     rel="noreferrer"
                     className="font-light underline">
-                  {project.url}
-                </a>
+                    {project.url}
+                  </a>
+                  </>
                 )
               }
               {
                 project.github && 
                   (
+                    <>
                     &nbsp;&nbsp;
                     <a href={project.github}>
-                    <img src="/github.png" className="w-4" />
+                      <img src="/github.png" className="w-4" />
                     </a>
+                    </>
                   )
               }
               <div className="flex-grow" />

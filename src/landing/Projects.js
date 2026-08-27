@@ -34,10 +34,10 @@ export default function Projects() {
                 </a>
                 )
               }
-              &nbsp;&nbsp;
               {
                 project.github && 
                   (
+                    &nbsp;&nbsp;
                     <a href={project.github}>
                     <img src="/github.png" className="w-4" />
                     </a>

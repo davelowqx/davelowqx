@@ -9,8 +9,8 @@ export default function Projects() {
       github: 'https://github.com/davelowqx/sim',
     },
     {
-      title: 'Prediction Markets Trading Infra',
-      description: '',
+      title: '-',
+      description: 'Building trading infra for prediction markets in C++',
     },
   ]
   return (
@@ -22,10 +22,10 @@ export default function Projects() {
           <div key={i} className="mb-2.5">
             <div className="flex items-center">
               <div className="font-semibold">{project.title}</div>
-              &nbsp;|&nbsp;
               {
                 project.url &&
                 (
+                  &nbsp;|&nbsp;
                   <a href={project.url}
                     target="_blank"
                     rel="noreferrer"

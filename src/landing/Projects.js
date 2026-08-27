@@ -3,15 +3,16 @@ import React from 'react'
 export default function Projects() {
   const projects = [
     {
-      title: 'Simulated Exchange',
-      url: 'https://sim.davelowqx.com',
-      description: 'Simulated exchange with a matching engine, market makers, traders, and a WebSocket market data feed visualised in the browser.',
-      github: 'https://github.com/davelowqx/sim',
-    },
-    {
       title: '-',
       description: 'Building trading infra for prediction markets in C++',
     },
+    {
+      title: 'Simulated Exchange',
+      url: 'https://sim.davelowqx.com',
+      description: 'Matching engine processing orders from market maker / taker agents. Resultant market data is streamed to the frontend.',
+      github: 'https://github.com/davelowqx/sim',
+    },
+
   ]
   return (
     <>

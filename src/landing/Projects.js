@@ -8,6 +8,10 @@ export default function Projects() {
       description: 'Simulated exchange with a matching engine, market makers, traders, and a WebSocket market data feed visualised in the browser.',
       github: 'https://github.com/davelowqx/sim',
     },
+    {
+      title: 'Prediction Markets Trading Infra',
+      description: '',
+    },
   ]
   return (
     <>
@@ -19,18 +23,26 @@ export default function Projects() {
             <div className="flex items-center">
               <div className="font-semibold">{project.title}</div>
               &nbsp;|&nbsp;
-              <a
-                href={project.url}
-                target="_blank"
-                rel="noreferrer"
-                className="font-light underline"
-              >
-                {project.url}
-              </a>
+              {
+                project.url &&
+                (
+                  <a href={project.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="font-light underline">
+                  {project.url}
+                </a>
+                )
+              }
               &nbsp;&nbsp;
-              <a href={project.github}>
-                <img src="/github.png" className="w-4" />
-              </a>
+              {
+                project.github && 
+                  (
+                    <a href={project.github}>
+                    <img src="/github.png" className="w-4" />
+                    </a>
+                  )
+              }
               <div className="flex-grow" />
             </div>
             <p className="font-light">{project.description}</p>

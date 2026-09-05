@@ -3,16 +3,10 @@ import React from 'react'
 export default function Projects() {
   const projects = [
     {
-      title: '-',
-      description: 'Building trading infra for prediction markets in C++',
+      title: 'RolyPoly',
+      url: 'https://rolypoly.davelowqx.com',
+      description: 'C++ aggregator streaming Polymarket BTC Up/Down market data and Binance aggTrade',
     },
-    {
-      title: 'Simulated Exchange',
-      url: 'https://sim.davelowqx.com',
-      description: 'Matching engine processing orders from market maker / taker agents. Resultant market data is streamed to the frontend.',
-      github: 'https://github.com/davelowqx/sim',
-    },
-
   ]
   return (
     <>
@@ -23,20 +17,13 @@ export default function Projects() {
           <div key={i} className="mb-2.5">
             <div className="flex items-center">
               <div className="font-semibold">{project.title}</div>
-              {
-                project.url &&
-                (
-                  <>
-                  &nbsp;|&nbsp;
-                  <a href={project.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="font-light underline">
-                    {project.url}
-                  </a>
-                  </>
-                )
-              }
+              &nbsp;|&nbsp;
+              <a href={project.url}
+                target="_blank"
+                rel="noreferrer"
+                className="font-light underline">
+                {project.url}
+              </a>
               {
                 project.github && 
                   (

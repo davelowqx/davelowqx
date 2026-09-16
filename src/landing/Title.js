@@ -34,7 +34,7 @@ export default function Title() {
           </a>
         </span>
         &nbsp;&nbsp;•&nbsp;&nbsp;
-        <span>SG</span>
+        <span>Singapore</span>
       </div>
     </>
   )

@@ -29,7 +29,7 @@ export default function Experience() {
         "- Responded to and resolved production incidents during EU hours",
         "[Go]"
       ],
-      duration: 'May 2024 - Jun 2025',
+      duration: 'May 2024 - May 2025',
     },
     {
       company: 'Motional',
@@ -43,7 +43,7 @@ export default function Experience() {
       href: 'https://www.linkedin.com/company/aures-capital',
       summary: 'Internship',
       description: [`Built from scratch trade execution and market data systems on Binance/OKX [Python, Kafka]`],
-      duration: 'Jun 2023 - Sep 2024',
+      duration: 'Jun 2023 - Aug 2023',
     },
     {
       company: 'AlphaGrep',

@@ -13,14 +13,14 @@ export default function Title() {
           className={`${!showEmail && 'cursor-pointer bg-gray-100'}`}
           onClick={() => !showEmail && setShowEmail(true)}
         >
-          {showEmail ? 'davelowqx' + '[at]g' + 'mail.' + 'com' : 'email'}
+          {showEmail ? 'davelowqx' + '[at]g' + 'mail.' + 'com' : '<email>'}
         </div>
         &nbsp;&nbsp;•&nbsp;&nbsp;
         <div
           className={`${!showNum && 'cursor-pointer bg-gray-100'}`}
           onClick={() => !showNum && setShowNum(true)}
         >
-          {showNum ? '+' + '65 ' + '881' + (5+2) + '958' + (2+2) : 'phone'}
+          {showNum ? '+' + '65 ' + '881' + (5+2) + '958' + (2+2) : '<phone>'}
         </div>
         &nbsp;&nbsp;•&nbsp;&nbsp;
         <span>

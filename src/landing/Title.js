@@ -25,7 +25,7 @@ export default function Title() {
         &nbsp;&nbsp;•&nbsp;&nbsp;
         <span>
           <a
-            href={`https://{linkedin}`}
+            href={`https://${linkedin}`}
             target="_blank"
             rel="noreferrer"
             className="hover:underline"

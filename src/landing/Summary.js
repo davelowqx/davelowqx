@@ -1,6 +1,6 @@
 import React from 'react'
 export default function Summary() {
-  const summary = "Quant Developer building market data systems, backtesting and trading infrastructure";
+  const summary = "Building market data systems, backtesting and trading infrastructure.";
   const languages = "C++, Python, Go";
   const technologies = "Polars, Redis, Kafka, Docker, Kubernetes, Terraform, Elasticsearch";
   const cloud = "AWS, GCP, Cloudflare";

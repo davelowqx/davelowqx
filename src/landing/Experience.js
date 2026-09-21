@@ -6,7 +6,7 @@ export default function Experience() {
       href: 'https://www.linkedin.com/company/alpha-grep/',
       summary: 'Quantitative Developer',
       description: [
-        "Developed research infrastructure for an early-stage MFT pod",
+        "Developed research infrastructure and internal tooling for an early-stage MFT pod",
         "- Owned in-house backtest platform that allowed researchers to iterate on alphas at scale",
         "- Parallelised backtests by provisioning dedicated VMs for each job, tightening feedback loop from hours to minutes",
         "- Extended platform to support custom trading universes, trading restrictions and index hedging.",

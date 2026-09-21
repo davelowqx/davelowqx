@@ -9,7 +9,7 @@ export default function Summary() {
     <h3>{summary}</h3>
     <h3><span className="font-semibold">Languages:</span> {languages}</h3>
     <h3><span className="font-semibold">Technologies:</span> {technologies}</h3>
-    <h3><span className="font-semibold">Cloud:</span> {technologies}</h3>
+    <h3><span className="font-semibold">Cloud:</span> {cloud}</h3>
     </>
   )
 }

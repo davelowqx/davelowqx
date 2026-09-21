@@ -7,13 +7,13 @@ export default function Experience() {
       summary: 'Quantitative Developer',
       description: [
         "Developed research infrastructure for an early-stage MFT pod",
-        "- Owned in-house backtest platform that allowed researchers to develop, backtest and iterate on signals at scale",
-        "- Parallelised backtests by provisioning dedicated VMs for each job, tightening researcher feedback loop from hours to minutes",
+        "- Owned in-house backtest platform that allowed researchers to iterate on alphas at scale",
+        "- Parallelised backtests by provisioning dedicated VMs for each job, tightening feedback loop from hours to minutes",
         "- Extended platform to support custom trading universes, trading restrictions and index hedging.",
-        "- Reduced cloud costs ~60% with microservice that restarts preempted VMs and monitors CPU/Memory utilization",
+        "- Reduced cloud costs ~60% with service that restarts preempted VMs and monitors CPU/Memory utilization",
         "- Built frontend to simplify managing and monitoring of VMs for researchers",
-        "- Created Terraform configurations for multi-dependency deployments",
-        "[Python, Polars, Redis]"
+        "- Created Terraform configurations for multi-dependency deployments on GCP",
+        "[Python, Polars, Redis, GCP Compute Engine/Spanner/Cloud Scheduler]"
       ],
       duration: 'Jun 2025 - Mar 2026',
     },
@@ -22,12 +22,12 @@ export default function Experience() {
       href: 'https://www.linkedin.com/company/tiktok/',
       summary: 'Backend Engineer',
       description: [
-        "Built and maintained backend systems for TikTok Shop's logistics between sellers and delivery hubs",
-        "- Supported new market launches by implementing region-specific features and multi-region deployments",
-        "- Improved service decoupling by deprecating RPC in favor of Kafka",
-        "- Reduced API response times by introducing async patterns in collaboration with the frontend team",
+        "Worked on backend services supporting TikTok Shop's logistics between sellers and delivery hubs",
+        "- Enabled new market launches by implementing region-specific features and multi-region deployments",
+        "- Improved service decoupling by migrating inter-service communication from RPC to Kafka",
+        "- Reduced API response latency by migrating from polling to server-side push",
         "- Responded to and resolved production incidents during EU hours",
-        "[Go]"
+        "[Go, Kafka]"
       ],
       duration: 'May 2024 - May 2025',
     },
@@ -42,21 +42,21 @@ export default function Experience() {
       company: 'Aures Capital',
       href: 'https://www.linkedin.com/company/aures-capital',
       summary: 'Internship',
-      description: [`Built from scratch trade execution and market data systems on Binance/OKX [Python, Kafka]`],
+      description: [`Built from scratch execution and market data systems for Binance/OKX [Python, Kafka]`],
       duration: 'Jun 2023 - Aug 2023',
     },
     {
       company: 'AlphaGrep',
       href: 'https://www.linkedin.com/company/alpha-grep/',
       summary: 'Internship',
-      description: [`Early efforts building a C++ matching engine/aggregator with a multi-threaded epoll server [C++]`],
+      description: [`Built a proof-of-concept C++ FIX matching engine for aggregating FX swap quotes across venues [C++]`],
       duration: 'Sep 2022 - Dec 2022',
     },
     {
       company: 'Quantedge',
       href: 'https://www.linkedin.com/company/quantedge/',
       summary: 'Internship',
-      description: [`Developed proof-of-concept Event-Driven architecture with RabbitMQ and Apache Airflow [Python]`],
+      description: [`Prototyped an event-driven architecture using Apache Airflow/RabbitMQ for task scheduling.`],
       duration: 'May 2022 - Aug 2022',
     },
   ]

@@ -1,13 +1,15 @@
 import React from 'react'
 export default function Summary() {
-  const summary = "Drawn to challenging problems with high ownership and outsized impact.";
-  const languages = "Python, C++, Go";
-  const technologies = "Redis, Kafka, Docker, Kubernetes, Terraform, Elasticsearch, Polars";
+  const summary = "Quant Developer building market data systems, backtesting and trading infrastructure";
+  const languages = "C++, Python, Go";
+  const technologies = "Polars, Redis, Kafka, Docker, Kubernetes, Terraform, Elasticsearch";
+  const cloud = "AWS, GCP, Cloudflare";
   return (
     <>
     <h3>{summary}</h3>
     <h3><span className="font-semibold">Languages:</span> {languages}</h3>
     <h3><span className="font-semibold">Technologies:</span> {technologies}</h3>
+    <h3><span className="font-semibold">Cloud:</span> {technologies}</h3>
     </>
   )
 }

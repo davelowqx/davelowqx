@@ -5,7 +5,7 @@ export default function Projects() {
     {
       title: 'RolyPoly',
       url: 'https://rolypoly.davelowqx.com',
-      description: 'C++ aggregator streaming Polymarket BTC Up/Down market data and Binance aggTrade',
+      description: 'C++ aggregator streaming Polymarket BTC Up/Down orderbook and trades alongside Binance, OKX and Coinbase spot feeds.',
     },
   ]
   return (
